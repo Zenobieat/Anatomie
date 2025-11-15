@@ -1,6 +1,7 @@
 # Anatomie
 
-Een neon-stijl anatomiequiz met 26 modules.
+Een lichte, Apple-achtige anatomiequizinterface die klaarstaat voor een
+nieuwe reeks 20-vragen modules.
 
 ## Bekijk de site lokaal
 
