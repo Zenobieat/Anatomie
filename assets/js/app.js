@@ -1345,6 +1345,7 @@ const state = {
 const letters = ["A", "B", "C", "D"];
 
 function renderMenu() {
+  if (!quizGrid) return;
   quizGrid.innerHTML = quizData
     .map(
       (quiz) => `
@@ -1488,8 +1489,11 @@ returnHome.addEventListener("click", () => {
   togglePanels("menu");
 });
 
-scrollToQuizzes.addEventListener("click", () => {
-  document.getElementById("quizMenu").scrollIntoView({ behavior: "smooth" });
-});
+if (scrollToQuizzes) {
+  scrollToQuizzes.addEventListener("click", () => {
+    togglePanels("menu");
+    quizMenu.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+}
 
 renderMenu();
