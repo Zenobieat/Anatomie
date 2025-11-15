@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anatomie Masterclass</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Welkom in de Anatomie Arena</p>
+        <h1>
+          ✅ Anatomie Quiz Hub
+          <span>27 botten, 520 vragen, eindeloze fun</span>
+        </h1>
+        <p>
+          Kies één van de bot-quizzen, laat je verwelkomen door onze
+          vriendelijke anatomische animatie en verdien een score op 20 punten.
+          Elk antwoord toont meteen hoe stevig jouw kennis van het skelet is.
+        </p>
+        <button class="hero__cta" id="scrollToQuizzes">Ontdek de quizzen</button>
+      </div>
+      <div class="hero__animation" aria-hidden="true">
+        <div class="spine">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="pulse"></div>
+      </div>
+    </header>
+
+    <main>
+      <section id="quizMenu" class="panel">
+        <div class="panel__header">
+          <h2>Hoofdmenu – kies je bot</h2>
+          <p>Elke kaart start een uitdagende quiz met feedback en score op 20.</p>
+        </div>
+        <div class="quiz-grid" id="quizGrid"></div>
+      </section>
+
+      <section id="quizPlayground" class="panel panel--hidden">
+        <div class="quiz-head">
+          <button class="btn ghost" id="backToMenu">← Terug naar hoofdmenu</button>
+          <div class="quiz-head__info">
+            <p id="quizLevel"></p>
+            <h3 id="quizTitle"></h3>
+          </div>
+        </div>
+        <div id="questionZone" class="question-zone"></div>
+        <div class="quiz-footer">
+          <div class="progress">
+            <span id="progressCounter"></span>
+            <div class="progress__bar">
+              <div id="progressBar"></div>
+            </div>
+          </div>
+          <button class="btn primary" id="nextQuestion" disabled>Volgende vraag</button>
+        </div>
+      </section>
+
+      <section id="resultPanel" class="panel panel--hidden">
+        <div class="result-card">
+          <p class="result-card__eyebrow">Quiz voltooid</p>
+          <h3 id="resultTitle"></h3>
+          <p id="resultScore"></p>
+          <div id="resultDetails" class="result-details"></div>
+          <div class="result-actions">
+            <button class="btn ghost" id="retryQuiz">Probeer opnieuw</button>
+            <button class="btn primary" id="returnHome">Terug naar menu</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Gemaakt met ❤️ voor anatomie – powered by GPT-5 Codex</p>
+    </footer>
+
+    <script src="assets/js/app.js" type="module"></script>
+  </body>
+</html>
