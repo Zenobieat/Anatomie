@@ -1334,6 +1334,8 @@ const quizLevel = document.getElementById("quizLevel");
 const resultTitle = document.getElementById("resultTitle");
 const resultScore = document.getElementById("resultScore");
 const resultDetails = document.getElementById("resultDetails");
+const screens = document.querySelectorAll("[data-screen]");
+const catalogScreen = document.getElementById("catalogScreen");
 
 const state = {
   currentQuiz: null,
@@ -1482,6 +1484,22 @@ const backToMenu = document.getElementById("backToMenu");
 const retryQuiz = document.getElementById("retryQuiz");
 const returnHome = document.getElementById("returnHome");
 const scrollToQuizzes = document.getElementById("scrollToQuizzes");
+const goToLanding = document.getElementById("goToLanding");
+
+function showScreen(target) {
+  if (!screens.length) return;
+  screens.forEach((screen) => {
+    screen.classList.toggle("is-visible", screen.dataset.screen === target);
+  });
+}
+
+function openCatalogView() {
+  showScreen("catalog");
+  togglePanels("menu");
+  if (catalogScreen) {
+    catalogScreen.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}
 
 backToMenu.addEventListener("click", () => {
   state.currentQuiz = null;
@@ -1496,13 +1514,19 @@ retryQuiz.addEventListener("click", () => {
 returnHome.addEventListener("click", () => {
   state.currentQuiz = null;
   togglePanels("menu");
+  showScreen("catalog");
 });
 
 if (scrollToQuizzes) {
-  scrollToQuizzes.addEventListener("click", () => {
-    togglePanels("menu");
-    quizMenu.scrollIntoView({ behavior: "smooth", block: "start" });
+  scrollToQuizzes.addEventListener("click", openCatalogView);
+}
+
+if (goToLanding) {
+  goToLanding.addEventListener("click", () => {
+    showScreen("start");
   });
 }
+
+showScreen("start");
 
 renderMenu();

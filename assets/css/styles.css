@@ -1,13 +1,13 @@
 :root {
-  --bg: #f6f8ff;
-  --panel: rgba(255, 255, 255, 0.9);
-  --accent: #0b5fff;
-  --accent-2: #00c2ff;
-  --text: #0c142b;
-  --muted: #5d6276;
+  --bg: #f8f9ff;
+  --panel: rgba(255, 255, 255, 0.92);
+  --accent: #0066ff;
+  --accent-2: #00d1ff;
+  --text: #060a17;
+  --muted: #4c5368;
   --danger: #ff4d6d;
-  --success: #2fd38a;
-  --border: rgba(9, 20, 58, 0.1);
+  --success: #09b37d;
+  --border: rgba(6, 10, 23, 0.1);
   font-size: 16px;
 }
 
@@ -18,8 +18,9 @@
 }
 
 body {
-  font-family: "Space Grotesk", system-ui, sans-serif;
-  background: radial-gradient(circle at top left, #ffffff 0%, #f0f4ff 45%, #e0e7ff 100%);
+  font-family: "Inter", "SF Pro Display", "SF Pro Text", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top left, #ffffff 0%, #f5f7ff 50%, #e4e9ff 100%);
   color: var(--text);
   min-height: 100vh;
   line-height: 1.5;
@@ -31,29 +32,59 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: radial-gradient(circle at 20% 20%, rgba(11, 95, 255, 0.08), transparent 55%),
-    radial-gradient(circle at 80% 0%, rgba(0, 194, 255, 0.1), transparent 60%);
+  background: radial-gradient(circle at 20% 20%, rgba(0, 102, 255, 0.08), transparent 55%),
+    radial-gradient(circle at 80% 0%, rgba(0, 209, 255, 0.12), transparent 60%);
   pointer-events: none;
   z-index: -1;
 }
 
-main {
+.screen {
+  display: none;
   width: min(1200px, 100%);
   margin: 0 auto;
-  padding: 0 1.5rem 4rem;
+  padding: 0 clamp(1rem, 5vw, 4rem) 3rem;
+  opacity: 0;
+  transform: translateY(25px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.screen.is-visible {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.workspace {
+  padding-bottom: 2rem;
 }
 
 .hero {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
-  padding: 3rem clamp(1rem, 4vw, 4rem);
+  padding: 3rem clamp(1rem, 3vw, 4rem);
   align-items: center;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(230, 239, 255, 0.8));
   border-radius: 32px;
   margin: 2rem auto 3rem;
   width: min(1200px, 100%);
   box-shadow: 0 30px 80px rgba(15, 24, 61, 0.15);
+}
+
+.hero__details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  width: min(1200px, 100%);
+  margin: 0 auto 3rem;
+}
+
+.hero__details article {
+  padding: 1.5rem;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid var(--border);
+  box-shadow: 0 15px 35px rgba(8, 12, 32, 0.08);
 }
 
 .hero__content h1 {
@@ -187,6 +218,36 @@ main {
   margin-bottom: 2rem;
   box-shadow: 0 25px 50px rgba(15, 24, 61, 0.12);
   backdrop-filter: blur(10px);
+}
+
+.panel--menu {
+  height: 100%;
+}
+
+.workspace__play {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.catalog-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.catalog-header__actions {
+  display: flex;
+  align-items: flex-start;
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 420px) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
 }
 
 .panel__header {
@@ -429,6 +490,16 @@ footer {
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (max-width: 900px) {
+  .catalog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .workspace__play {
+    order: -1;
   }
 }
 
