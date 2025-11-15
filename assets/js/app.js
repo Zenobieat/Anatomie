@@ -538,6 +538,541 @@ const quizData = [
         answer: 1
       }
     ]
+  },
+  {
+    id: "sacrum",
+    title: "Quiz 6 — Os sacrum",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Waaruit bestaat het os sacrum?",
+        options: ["3 vergroeide wervels", "5 vergroeide wervels", "7 vergroeide wervels", "2 vergroeide wervels"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet de bovenste uitstekende rand van het sacrum?",
+        options: ["Basis ossis sacri", "Ala sacralis", "Promontorium", "Crista sacralis"],
+        answer: 2
+      },
+      {
+        prompt: "Wat loopt door het canalis sacralis?",
+        options: ["Ruggenmerg", "Zenuwwortels", "Aorta", "Slokdarm"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe noemen we de openingen aan de voorzijde van het sacrum?",
+        options: ["Foramina sacralia posteriora", "Foramina sacralia anteriora", "Hiatus sacralis", "Foramen obturatum"],
+        answer: 1
+      },
+      {
+        prompt: "Wat bevindt zich op de dorsale middenlijn van het sacrum?",
+        options: ["Crista sacralis mediana", "Processus dentatus", "Processus spinosus", "Linea glutea"],
+        answer: 0
+      },
+      {
+        prompt: "Wat ligt er lateraal van de crista sacralis mediana?",
+        options: ["Foramina anteriora", "Tuberositas sacralis", "Crista sacralis lateralis", "Ala ossis sacri"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet de achterste opening van het sacraal kanaal?",
+        options: ["Hiatus sacralis", "Foramen sacrale", "Fossa sacralis", "Incisura sacralis"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe heet de ruwe zone voor ligamentaanhechting?",
+        options: ["Facies auricularis", "Tuberositas ossis sacri", "Fovea sacralis", "Sinus sacralis"],
+        answer: 1
+      },
+      {
+        prompt: "Met welk bot articuleert het sacrum lateraal?",
+        options: ["Os pubis", "Os ilium", "Os ischii", "Femur"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het oorvormige gewrichtsvlak?",
+        options: ["Facies ophthalmica", "Facies auricularis", "Facies articularis superior", "Facies sacralis"],
+        answer: 1
+      },
+      {
+        prompt: "Wat vormen de vergroeide processus spinosi van het sacrum?",
+        options: ["Crista glutea", "Crista sacralis mediana", "Crista sacralis posterior", "Crista intermedia"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is de functie van het sacrum?",
+        options: ["Beweging mogelijk maken", "Verbinding tussen beide os coxae", "Rotatie van wervelkolom", "Aanhechting van ribben"],
+        answer: 1
+      },
+      {
+        prompt: "Wat loopt door de foramina sacralia anteriora?",
+        options: ["Slagaders", "Spinale zenuwen", "Wervelslagader", "Spieraanhechtingen"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur ligt direct boven het sacrum?",
+        options: ["L2", "L3", "L4", "L5"],
+        answer: 3
+      },
+      {
+        prompt: "Wat bevindt zich naast de ala ossis sacri?",
+        options: ["Foramina posteriora", "Facies auricularis", "Foramen obturatum", "Symphysis pubica"],
+        answer: 1
+      },
+      {
+        prompt: "Waar eindigt het canalis sacralis caudaal?",
+        options: ["Promontorium", "Crista sacralis", "Hiatus sacralis", "Corpus sacri"],
+        answer: 2
+      },
+      {
+        prompt: "Wat is de vorm van het sacrum dorsaal gezien?",
+        options: ["Recht", "Hol", "Bol", "Driehoekig"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet de laterale rand van het sacrum?",
+        options: ["Tuberositas arcuata", "Margo lateralis", "Linea arcuata", "Linea intermedia"],
+        answer: 1
+      },
+      {
+        prompt: "Wat zit er ventraal op het sacrum?",
+        options: ["Crista sacralis medialis", "Lineae transversae", "Facies auricularis", "Foramina posteriora"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is typisch aan het sacrum?",
+        options: ["Zeer beweeglijk", "Geen tussenwervelschijven", "7 processus transversi", "Het bevat een dens"],
+        answer: 1
+      }
+    ]
+  },
+  {
+    id: "coccygis",
+    title: "Quiz 7 — Os coccygis",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Waaruit bestaat het os coccygis?",
+        options: ["2–3 vergroeide wervels", "3–5 vergroeide wervels", "7 vergroeide wervels", "1 wervel"],
+        answer: 1
+      },
+      {
+        prompt: "Waar bevindt het staartbeen zich?",
+        options: ["Tussen de lumbale wervels", "Onder het sacrum", "Voor het os pubis", "Achter de ribben"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het gewricht tussen sacrum en coccyx?",
+        options: ["Articulatio sacrococcygea", "Articulatio sacroiliaca", "Articulatio interpubica", "Articulatio lumbo-sacralis"],
+        answer: 0
+      },
+      {
+        prompt: "Wat is de belangrijkste functie van het os coccygis?",
+        options: ["Gewicht dragen", "Spier- en ligamentaanhechting", "Bescherming van organen", "Articulatie met femur"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe is de vorm van het coccyx best te omschrijven?",
+        options: ["Hartvormig", "Driehoekig", "Zwaardvormig", "Boogvormig"],
+        answer: 2
+      },
+      {
+        prompt: "Wat bevindt zich boven het os coccygis?",
+        options: ["Femur", "Sacrum", "L3", "Pubis"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het eerste segment van het staartbeen?",
+        options: ["Cornu coccygeum", "Corpus coccygis", "Basis coccygis", "Apex coccygis"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet het onderste puntje van het coccyx?",
+        options: ["Apex coccygis", "Promontorium", "Tuberositas coccygea", "Cornu sacralis"],
+        answer: 0
+      },
+      {
+        prompt: "Wat zijn de cornua coccygea?",
+        options: ["Kleine ribuitsteeksels", "Processus spinosi", "Uitsteeksels die naar het sacrum wijzen", "Inkepingen voor zenuwen"],
+        answer: 2
+      },
+      {
+        prompt: "Wat gebeurt er meestal met het coccyx bij volwassenen?",
+        options: ["Het vergroot", "Het wordt botweefsel met tussenwervelschijven", "Het vergroeid volledig", "Het draait naar craniaal"],
+        answer: 2
+      },
+      {
+        prompt: "Welke beweging is mogelijk in de articulatio sacrococcygea?",
+        options: ["Rotatie", "Extensie", "Lichte flexie", "Geen enkele beweging"],
+        answer: 2
+      },
+      {
+        prompt: "Bij vrouwen is het coccyx vaak…",
+        options: ["Veel korter", "Naar ventraal gericht", "Meer beweeglijk", "Groter dan bij mannen"],
+        answer: 2
+      },
+      {
+        prompt: "Wat hecht er onder meer aan het os coccygis?",
+        options: ["Gluteus medius", "Ligamenten van bekkenbodem", "Hamstrings", "Quadriceps"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt er ventraal van het coccyx?",
+        options: ["Sacraal kanaal", "Rectum", "Spina ischiadica", "Blaswand"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe noemen we een pijnlijke kneuzing van het coccyx?",
+        options: ["Coccygodynie", "Sacrodynie", "Coccytitis", "Coxalgie"],
+        answer: 0
+      },
+      {
+        prompt: "Het coccyx bevat…",
+        options: ["Grote gewrichtsvlakken", "Kleine rudimentaire processus", "Een dens", "Foramina zoals het sacrum"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is de positie van het coccyx bij anatomische houding?",
+        options: ["Ventraal gekromd", "Dorsaal gekromd", "Helemaal recht", "Naar links gericht"],
+        answer: 0
+      },
+      {
+        prompt: "De coccygeale wervels bevatten…",
+        options: ["Geen corpus", "Een zeer klein corpus", "Grote processus transversi", "Een volledig wervellichaam zoals L1"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is het grootste verschil met het sacrum?",
+        options: ["Het sacrum beweegt veel meer", "Het coccyx is langer", "Het coccyx is veel kleiner en eenvoudiger", "Het coccyx articuleert met ribben"],
+        answer: 2
+      },
+      {
+        prompt: "Wat is de bovenste rand van het os coccygis?",
+        options: ["Apex", "Basis", "Cornu", "Tuberositas"],
+        answer: 1
+      }
+    ]
+  },
+  {
+    id: "sternum",
+    title: "Quiz 8 — Sternum",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Uit welke delen bestaat het sternum?",
+        options: ["Manubrium – Corpus – Processus xiphoideus", "Basis – Corpus – Ala", "Caput – Collum – Corpus", "Manubrium – Arcus – Tuberculum"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe heet de bovenste inkeping van het sternum?",
+        options: ["Incisura costalis", "Incisura clavicularis", "Incisura jugularis", "Fovea sternalis"],
+        answer: 2
+      },
+      {
+        prompt: "Waar articuleren de claviculae met het sternum?",
+        options: ["Op het corpus sterni", "Op de incisura costalis", "Op de incisura clavicularis", "Op het xiphoïd"],
+        answer: 2
+      },
+      {
+        prompt: "Waar articuleren de ribben met het sternum?",
+        options: ["Incisura jugularis", "Incisura costalis", "Foramen sternale", "Crista sterni"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het onderste deel van het sternum?",
+        options: ["Processus xiphoideus", "Corpus sterni", "Manubrium", "Tuberculum sterni"],
+        answer: 0
+      },
+      {
+        prompt: "Wat ligt er tussen het manubrium en corpus sterni?",
+        options: ["Corpus costae", "Angulus sterni", "Tuberositas sterni", "Arcus sterni"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is het Angulus Sterni?",
+        options: ["Een aanhechtingsplaats voor de ribben", "De overgang tussen corpus en xiphoid", "Een voelbare hoek tussen manubrium en corpus", "De verbinding tussen sternum en clavicula"],
+        answer: 2
+      },
+      {
+        prompt: "Hoeveel incisurae costales zijn er aan elke zijde van het sternum?",
+        options: ["3", "5", "7", "12"],
+        answer: 2
+      },
+      {
+        prompt: "Wat hecht vast aan de Processus xiphoideus?",
+        options: ["Rib 1", "Clavicula", "Buikspieren", "Trapzius"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet het kraakbeen dat ribben met sternum verbindt?",
+        options: ["Cartilago costalis", "Ligamentum costosternale", "Capsula costalis", "Cartilago sternale"],
+        answer: 0
+      },
+      {
+        prompt: "Waar ligt het sternum anatomisch?",
+        options: ["Lateraal in de thorax", "Dorsaal in de thorax", "Anterieur in de thorax", "Onder de clavicula alleen"],
+        answer: 2
+      },
+      {
+        prompt: "Welke vorm heeft het sternum?",
+        options: ["Driehoekig", "Zwaardvormig", "Kubusvormig", "C-vormig"],
+        answer: 1
+      },
+      {
+        prompt: "Het sternum beschermt vooral…",
+        options: ["Hersenen", "Ruggenmerg", "Longen en hart", "Bekkenorganen"],
+        answer: 2
+      },
+      {
+        prompt: "Wat is een kenmerk van het corpus sterni?",
+        options: ["Heeft een incisura jugularis", "Heeft meerdere incisurae costales", "Articuleert met clavicula", "Heeft de dens"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is een klinisch herkenningspunt voor borstcompressies?",
+        options: ["Angulus sterni", "Incisura clavicularis", "Processus xiphoideus", "Corpus sterni"],
+        answer: 3
+      },
+      {
+        prompt: "Wat ligt er onder de Processus xiphoideus?",
+        options: ["Diaphragma", "Patella", "Pubis", "Humerus"],
+        answer: 0
+      },
+      {
+        prompt: "Wat gebeurt er met het sternum bij ouder worden?",
+        options: ["Het verkalkt en kan vergroeien", "Het wordt zachter", "Het verdwijnt", "Het wordt cartilage"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe heet het gewricht tussen sternum en ribkraakbeen?",
+        options: ["Articulatio sternoclavicularis", "Articulatio costosternalis", "Articulatio sternoxiphoidea", "Articulatio manubristerni"],
+        answer: 1
+      },
+      {
+        prompt: "Met welk bot vormt het sternum een gewricht aan de bovenkant?",
+        options: ["Scapula", "Clavicula", "Costae III", "Vertebra C7"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is het middenste en grootste deel van het sternum?",
+        options: ["Manubrium sterni", "Corpus sterni", "Processus xiphoideus", "Tuberculum costae"],
+        answer: 1
+      }
+    ]
+  },
+  {
+    id: "clavicula",
+    title: "Quiz 9 — Clavicula",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Welke vorm heeft de clavicula?",
+        options: ["Rechte buis", "S-vormige kromming", "Zwaardvorm", "Volledig ronde staaf"],
+        answer: 1
+      },
+      {
+        prompt: "Met welk bot articuleert de laterale zijde van de clavicula?",
+        options: ["Sternum", "Scapula", "Humerus", "Costa I"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het gewricht tussen clavicula en sternum?",
+        options: ["Acromioclaviculair gewricht", "Sternoclaviculair gewricht", "Glenohumerale gewricht", "Costoclaviculair gewricht"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het gewricht tussen clavicula en acromion?",
+        options: ["Sternoclaviculair", "Scapuloclaviculair", "Acromioclaviculair", "Claviculohumeral"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet het ruwe gebied onderaan de clavicula voor ligamentaanhechting?",
+        options: ["Linea costalis", "Facies articularis", "Tuberositas coracoidea", "Conoid tubercle"],
+        answer: 3
+      },
+      {
+        prompt: "Welke zijde van de clavicula is bol naar voren gericht?",
+        options: ["Laterale zijde", "Mediale zijde", "Caudale zijde", "Dorsale zijde"],
+        answer: 1
+      },
+      {
+        prompt: "De mediale clavicula is…",
+        options: ["Plat", "Rond en dik", "Ovaal en dun", "Driehoekig"],
+        answer: 1
+      },
+      {
+        prompt: "De laterale clavicula articuleert met…",
+        options: ["Scapula (acromion)", "Os coxae", "Humeruskop", "Sternum"],
+        answer: 0
+      },
+      {
+        prompt: "Wat is de belangrijkste functie van de clavicula?",
+        options: ["Bescherming van longen", "Stabiliserende verbinding arm-romp", "Aanmaken van bloedcellen", "Draaipunt voor elleboog"],
+        answer: 1
+      },
+      {
+        prompt: "Waar ligt de impressio ligamenti costoclavicularis?",
+        options: ["Lateraal", "Mediaal", "Op dorsale zijde", "Op craniale zijde"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur ligt aan de laterale clavicula?",
+        options: ["Conoid tubercle", "Impressio costalis", "Sternal facet", "Linea intermedia"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe heet het vlak waarmee de clavicula met het sternum articuleert?",
+        options: ["Facies articularis sternalis", "Facies glenoidalis", "Facies costalis", "Facies humeralis"],
+        answer: 0
+      },
+      {
+        prompt: "Waarvoor dient het conoid tubercle?",
+        options: ["Aanhechting coracoclaviculair ligament", "Aanhechting van borstspieren", "Aanhechting voor trapezius", "Aanhechting voor deltoideus"],
+        answer: 0
+      },
+      {
+        prompt: "De clavicula is het enige bot dat…",
+        options: ["Met de ribben articuleert", "De arm met de romp verbindt", "Geen gewrichten heeft", "Met twee wervels articuleert"],
+        answer: 1
+      },
+      {
+        prompt: "Welke zijde van de clavicula is vlakker en breder?",
+        options: ["Mediale", "Laterale", "Dorsale", "Caudale"],
+        answer: 1
+      },
+      {
+        prompt: "Waar ligt het acromiale uiteinde?",
+        options: ["Mediaal", "Lateraal", "Ventraal", "Dorsaal"],
+        answer: 1
+      },
+      {
+        prompt: "Waar ligt het sternale uiteinde?",
+        options: ["Lateraal", "Dorsaal", "Mediaal", "Onder scapula"],
+        answer: 2
+      },
+      {
+        prompt: "Welke spier hecht aan de onderkant van de clavicula?",
+        options: ["Trapezius", "Subclavius", "Latissimus dorsi", "Rhomboideus"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is typisch voor de clavicula bij een breuk?",
+        options: ["Breekt zelden", "Breekt vaak in het midden", "Breekt alleen aan de uiteinden", "Breekt steeds verticaal"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt ventraal van de clavicula?",
+        options: ["Scapula", "Longtop", "Humerus", "Ribben"],
+        answer: 3
+      }
+    ]
+  },
+  {
+    id: "scapula",
+    title: "Quiz 10 — Scapula",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Welke structuur loopt uit in het acromion?",
+        options: ["Spina scapulae", "Processus coracoideus", "Cavitas glenoidalis", "Fossa subscapularis"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe heet het ravenbekvormige uitsteeksel van de scapula?",
+        options: ["Acromion", "Angulus superior", "Processus coracoideus", "Tuberculum supraglenoidale"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet de gewrichtskom van de scapula?",
+        options: ["Fossa supraspinata", "Cavitas glenoidalis", "Angulus inferior", "Fossa infraspinata"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt er boven de spina scapulae?",
+        options: ["Fossa infraspinata", "Fossa supraspinata", "Cavitas glenoidalis", "Fossa subscapularis"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt er onder de spina scapulae?",
+        options: ["Fossa supraspinata", "Fossa subscapularis", "Fossa infraspinata", "Angulus superior"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet het botpunt onderaan de scapula?",
+        options: ["Angulus superior", "Angulus inferor", "Angulus inferior", "Angulus medialis"],
+        answer: 2
+      },
+      {
+        prompt: "De margo medialis ligt…",
+        options: ["Tegen de wervelkolom", "Tegen de ribben", "Tegen de humerus", "Tegen de clavicula"],
+        answer: 0
+      },
+      {
+        prompt: "De margo lateralis ligt…",
+        options: ["Naar het sternum gericht", "Dicht bij de humerus", "Tegen de wervelkolom", "Achter de clavicula"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur ligt aan de voorzijde van de scapula?",
+        options: ["Fossa subscapularis", "Fossa infraspinata", "Fossa supraspinata", "Acromion"],
+        answer: 0
+      },
+      {
+        prompt: "Wat ligt er boven op de cavitas glenoidalis?",
+        options: ["Tuberculum infraglenoidale", "Processus coracoideus", "Tuberculum supraglenoidale", "Acromion"],
+        answer: 2
+      },
+      {
+        prompt: "Wat ligt er onder de cavitas glenoidalis?",
+        options: ["Tuberculum supraglenoidale", "Tuberculum infraglenoidale", "Processus coracoideus", "Fossa subscapularis"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is de functie van het acromion?",
+        options: ["Aanhechting hamstrings", "Gewrichtsvlak voor clavicula", "Bescherming van ribben", "Aanhechting sternum"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is de positie van de cavitas glenoidalis?",
+        options: ["Lateraal gericht", "Mediaal gericht", "Ventraal gericht", "Dorsaal gericht"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe noem je de bovenste hoek van de scapula?",
+        options: ["Angulus inferior", "Angulus superior", "Angulus medialis", "Angulus centralis"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe noem je de rand onder de cavitas glenoidalis richting de oksel?",
+        options: ["Margo medialis", "Margo superior", "Margo lateralis", "Crista glenoidalis"],
+        answer: 2
+      },
+      {
+        prompt: "Wat vormt de spina scapulae?",
+        options: ["Een scheiding tussen supra- en infraspinata", "De gewrichtskom", "Het ventrale oppervlak", "De mediale rand"],
+        answer: 0
+      },
+      {
+        prompt: "De facies costalis is het oppervlak dat…",
+        options: ["Tegen de ribben ligt", "Tegen de wervels ligt", "De humerus draagt", "De clavicula draagt"],
+        answer: 0
+      },
+      {
+        prompt: "Wat bevindt zich op de dorsale zijde van de scapula?",
+        options: ["Fossa subscapularis", "Cavitas costalis", "Fossa supra- en infraspinata", "Processus xiphoideus"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet de bovenste inkeping aan de mediale bovenrand?",
+        options: ["Incisura scapulae", "Incisura glenoidalis", "Incisura medialis", "Incisura coracoidea"],
+        answer: 0
+      },
+      {
+        prompt: "Waar articuleert de scapula rechtstreeks mee?",
+        options: ["Humerus & clavicula", "Ribben & clavicula", "Sternum & humerus", "Sternum & clavicula"],
+        answer: 0
+      }
+    ]
   }
 ];
 
@@ -560,7 +1095,7 @@ const catalogScreen = document.getElementById("catalogScreen");
 const menuSections = [
   {
     title: "Wervels & Thorax",
-    items: ["atlas", "axis", "cervicaal", "thoracaal", "lumbaal", "sacrum", "costae", "sternum"]
+    items: ["atlas", "axis", "cervicaal", "thoracaal", "lumbaal", "sacrum", "coccygis", "costae", "sternum"]
   },
   {
     title: "Schoudergordel & Arm",
