@@ -1,8 +1,8 @@
 # Anatomie
 
-Een lichte, Apple-achtige anatomiequizinterface die klaarstaat voor een
-nieuwe reeks 20-vragen modules. Batches 1 t/m 3 (Atlas → Os Coxae)
-staan nu live; de overige botten volgen in schijven van vijf.
+Een lichte, Apple-achtige anatomiequizinterface met alle nieuwe
+20-vragenmodules. De volledige reeks (Atlas → Algemene voet) staat live,
+waardoor elk bot rechtstreeks vanuit het hoofdmenu speelbaar is.
 
 ## Bekijk de site lokaal
 

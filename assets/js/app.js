@@ -1618,7 +1618,895 @@ const quizData = [
         answer: 1
       }
     ]
+  },
+  {
+    id: "femur",
+    title: "Quiz 16 — Femur",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Hoe heet de kop van het femur?",
+        options: ["Condylus femoris", "Caput femoris", "Eminentia femoris", "Fovea capitis"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het smalle gedeelte onder de femurkop?",
+        options: ["Collum femoris", "Corpus femoris", "Trochanter major", "Linea aspera"],
+        answer: 0
+      },
+      {
+        prompt: "Wat verbindt de femurkop met de heupkom?",
+        options: ["Fossa acetabuli", "Ligamentum capitis femoris", "Margo acetabuli", "Linea terminalis"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet de grote knobbel lateraal op het proximale femur?",
+        options: ["Trochanter major", "Trochanter minor", "Epicondylus lateralis", "Caput femoris"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe heet de kleine knobbel mediaal en posterieur?",
+        options: ["Trochanter major", "Tuberculum minus", "Trochanter minor", "Condylus medialis"],
+        answer: 2
+      },
+      {
+        prompt: "Welke structuur ligt tussen trochanter major en minor?",
+        options: ["Fovea capitis", "Christa femoralis", "Linea intertrochanterica", "Linea aspera"],
+        answer: 2
+      },
+      {
+        prompt: "Waar bevindt zich de fovea capitis?",
+        options: ["Op het collum", "In de femurkop", "Op de trochanter", "Distaal"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet de scherpe lijn op de dorsale zijde van het femur?",
+        options: ["Linea alba", "Linea glutea", "Linea intermedia", "Linea aspera"],
+        answer: 3
+      },
+      {
+        prompt: "Welke structuur ligt mediaal op het distale femur?",
+        options: ["Condylus lateralis", "Epicondylus lateralis", "Condylus medialis", "Linea aspera"],
+        answer: 2
+      },
+      {
+        prompt: "Wat ligt er tussen de beide condylen posterieur?",
+        options: ["Fossa intercondylaris", "Tuberositas glenoidea", "Fovea condyli", "Linea poplitea"],
+        answer: 0
+      },
+      {
+        prompt: "Wat ligt er tussen de condylen aan de voorzijde?",
+        options: ["Tuberculum femoris", "Trochlea femoris", "Linea intertrochanterica", "Eminentia intercondylaris"],
+        answer: 1
+      },
+      {
+        prompt: "Wat articuleert met de trochlea femoris?",
+        options: ["Tibia", "Patella", "Fibula", "Acetabulum"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt het meest lateraal aan het distale uiteinde?",
+        options: ["Epicondylus medialis", "Condylus medialis", "Epicondylus lateralis", "Caput femoris"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet de ruwe verhevenheid op de femurdiaphyse?",
+        options: ["Tuberositas tibiae", "Tuberositas glutea", "Tuberositas quadriceps", "Tuberositas ischiadica"],
+        answer: 1
+      },
+      {
+        prompt: "Waar ligt de trochanter minor?",
+        options: ["Lateraal en craniaal", "Mediaal en dorsaal", "Lateraal en ventraal", "Mediaal en ventraal"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is de functie van de lineae supracondylares?",
+        options: ["Aanhechting spieren", "Articulatie met tibia", "Beweging van heup", "Stabilisatie van wervels"],
+        answer: 0
+      },
+      {
+        prompt: "Wat bevindt zich tussen de femurcondylen op de tibia?",
+        options: ["Tuberculum intermedium", "Eminentia intercondylaris", "Fovea tibiae", "Condylus tibiae"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is de oriëntatie van het collum femoris t.o.v. het corpus?",
+        options: ["45°", "60°", "125°", "150°"],
+        answer: 2
+      },
+      {
+        prompt: "Wat ligt posterieur en distaal op het femur voor de gastrocnemius?",
+        options: ["Linea glutea", "Fossa intercondylaris", "Fossa poplitea", "Trochlea femoris"],
+        answer: 2
+      },
+      {
+        prompt: "Wat is het langste bot van het menselijk lichaam?",
+        options: ["Tibia", "Humerus", "Femur", "Radius"],
+        answer: 2
+      }
+    ]
+  },
+  {
+    id: "patella",
+    title: "Quiz 17 — Patella (mini)",
+    level: "5 vragen",
+    questions: [
+      {
+        prompt: "In welke pees ligt de patella?",
+        options: ["Bicepspees", "Quadricepspees", "Hamstringpees", "Tricepspees"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet de onderpunt van de patella?",
+        options: ["Basis", "Apex", "Trochlea", "Fossa"],
+        answer: 1
+      },
+      {
+        prompt: "Met welk bot articuleert de patella?",
+        options: ["Tibia", "Femur", "Fibula", "Talus"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het achterste gewrichtsoppervlak van de patella?",
+        options: ["Facies dorsalis", "Facies muscularis", "Facies articularis", "Facies poplitea"],
+        answer: 2
+      },
+      {
+        prompt: "Wat is de belangrijkste functie van de patella?",
+        options: ["Stabilisatie van de heup", "Vergroten van de kracht van de quadriceps", "Bescherming van de tibia", "Rotatie van de femurkop"],
+        answer: 1
+      }
+    ]
+  },
+  {
+    id: "tibia",
+    title: "Quiz 18 — Tibia",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Hoe heet de bovenkant van de tibia?",
+        options: ["Condylus superior", "Tibia plateau", "Caput tibiae", "Basis tibiae"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet het vooraan uitstekende punt onderaan de knie?",
+        options: ["Tuberositas tibiae", "Margo anterior", "Eminentia intercondylaris", "Linea musculi"],
+        answer: 0
+      },
+      {
+        prompt: "Welk ligament hecht aan de tuberositas tibiae?",
+        options: ["Lig. collaterale mediale", "Lig. cruciatum", "Lig. patellae", "Lig. popliteum"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet de scherpe voorrand van de tibia?",
+        options: ["Margo posterior", "Margo lateralis", "Margo anterior", "Crista tibialis"],
+        answer: 2
+      },
+      {
+        prompt: "Wat ligt tussen de twee tibiacondylen?",
+        options: ["Margo intermedius", "Eminentia intercondylaris", "Fovea tibiae", "Tuberculum popliteum"],
+        answer: 1
+      },
+      {
+        prompt: "Welke condyl is groter?",
+        options: ["Lateralis", "Medialis", "Beiden even groot", "Geen condylen"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het vlak dat met de femurcondylen articuleert?",
+        options: ["Facies carpalis", "Facies auricularis", "Facies articularis superior", "Facies patellaris"],
+        answer: 2
+      },
+      {
+        prompt: "Waar articuleert de laterale condyl van de tibia nog mee?",
+        options: ["Fibula", "Patella", "Talus", "Femur"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe heet het concave vlak dat met het talus articuleert?",
+        options: ["Facies malleolaris", "Facies articularis inferior", "Facies tibionavicularis", "Fovea talaris"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het enkeluitsteeksel van de tibia?",
+        options: ["Malleolus medialis", "Malleolus lateralis", "Malleolus tibialis superior", "Apex medialis"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe heet de achterkant van de tibia waar de m. popliteus hecht?",
+        options: ["Linea poplitea", "Sulcus popliteus", "Linea solei", "Facies posterior"],
+        answer: 1
+      },
+      {
+        prompt: "Waar ligt de linea musculi solei?",
+        options: ["Op het laterale vlak", "Ventraal", "Posterieur", "Op de malleolus"],
+        answer: 2
+      },
+      {
+        prompt: "Wat articuleert met de fibula proximaal?",
+        options: ["Condylus medialis", "Condylus lateralis", "Tuberositas tibiae", "Malleolus medialis"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet de punt distaal aan de tibia?",
+        options: ["Apex tibiae", "Malleolus medialis", "Tuberositas distalis", "Eminentia inferior"],
+        answer: 1
+      },
+      {
+        prompt: "Wat vormt samen het tibiaplateau?",
+        options: ["Corpus en eminentia", "De twee condylen", "Malleolus en corpus", "Facies anterior en posterior"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt ventraal op de tibia?",
+        options: ["Linea solei", "Margo anterior", "Linea intercondylaris", "Margo medialis"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het driehoekige achtervlak van de tibia?",
+        options: ["Facies articularis posterior", "Facies poplitea", "Facies tibialis", "Linea posterior"],
+        answer: 1
+      },
+      {
+        prompt: "Welke beweging is afhankelijk van de tibia in het kniegewricht?",
+        options: ["Flexie–extensie", "Pronatie", "Supinatie", "Circumductie"],
+        answer: 0
+      },
+      {
+        prompt: "Met welk bot vormt de tibia distaal een gewricht voor de enkel?",
+        options: ["Calcaneus", "Talus", "Naviculare", "Cuboideum"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet de groeve achter de malleolus medialis?",
+        options: ["Sulcus malleolaris", "Sulcus tibialis", "Sulcus posterior", "Sulcus calcaneus"],
+        answer: 0
+      }
+    ]
+  },
+  {
+    id: "fibula",
+    title: "Quiz 19 — Fibula",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Hoe heet de kop van de fibula?",
+        options: ["Apex fibulae", "Caput fibulae", "Collum fibulae", "Malleolus lateralis"],
+        answer: 1
+      },
+      {
+        prompt: "Waar ligt de fibula t.o.v. de tibia?",
+        options: ["Mediaal", "Lateraal", "Ventraal", "Dorsaal"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is de functie van de fibula?",
+        options: ["Draagt lichaamsgewicht", "Stabiliseert enkel & dient als spieraanhechting", "Articuleert met femur", "Sluit de knieschijf in"],
+        answer: 1
+      },
+      {
+        prompt: "Wat articuleert met de caput fibulae?",
+        options: ["Femur", "Tibia", "Talus", "Calcaneus"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het smalle deel onder de kop?",
+        options: ["Apex", "Collum fibulae", "Margo fibularis", "Corpus fibrosis"],
+        answer: 1
+      },
+      {
+        prompt: "Wat vormt de laterale enkelknobbel?",
+        options: ["Malleolus medialis", "Malleolus lateralis", "Apex fibulae", "Caput fibulae"],
+        answer: 1
+      },
+      {
+        prompt: "Waar articuleert de fibula distaal mee?",
+        options: ["Femur", "Calcaneus", "Talus", "Patella"],
+        answer: 2
+      },
+      {
+        prompt: "Wat is breder: het proximale of distale uiteinde?",
+        options: ["Proximaal", "Distaal", "Ze zijn gelijk", "Verschilt per persoon"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet de gewrichtsverbinding tussen tibia en fibula bovenaan?",
+        options: ["Art. tibiofibularis proximalis", "Art. intercondylaris", "Art. fibulotalaris", "Art. tibiofibularis inferior"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe heet de bindweefselverbinding tussen tibia en fibula?",
+        options: ["Syndesmosis tibiofibularis", "Membrana interossea", "Fascia intercruralis", "Ligamentum fibulare"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt aan de laterale kant van de fibula?",
+        options: ["Margo medialis", "Margo posterior", "Margo lateralis", "Margo anterior"],
+        answer: 2
+      },
+      {
+        prompt: "Waar ligt de sulcus malleolaris van de fibula?",
+        options: ["Op de mediale enkel", "Op de laterale malleolus", "Proximaal bij de kop", "Ventraal op het corpus"],
+        answer: 1
+      },
+      {
+        prompt: "Welk bot draagt NIET bij aan het kniegewricht?",
+        options: ["Femur", "Tibia", "Fibula", "Patella"],
+        answer: 2
+      },
+      {
+        prompt: "Welke spieren hechten vooral aan de fibula?",
+        options: ["Extensoren van de knie", "Hamstrings", "Peroneus (fibularis) spieren", "Quadriceps"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet de achterste rand van de fibula?",
+        options: ["Margo interosseus", "Margo posterior", "Margo anterior", "Crista posterior"],
+        answer: 1
+      },
+      {
+        prompt: "De malleolus lateralis bevindt zich…",
+        options: ["Meer proximaal dan de mediale malleolus", "Op exact dezelfde hoogte", "Meer distaal dan de mediale malleolus", "Totaal niet aan de enkel"],
+        answer: 2
+      },
+      {
+        prompt: "Wat articuleert met het mediale oppervlak van de malleolus lateralis?",
+        options: ["Femur", "Calcaneus", "Talus", "Naviculare"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet de driehoekige schacht van de fibula?",
+        options: ["Corpus fibulae", "Fascia fibularis", "Collum fibulae", "Fovea fibularis"],
+        answer: 0
+      },
+      {
+        prompt: "Waar ligt de incisura fibularis?",
+        options: ["Op de fibula", "Op de tibia distaal", "Op de talus", "Op de calcaneus"],
+        answer: 1
+      },
+      {
+        prompt: "De fibula draagt ongeveer…",
+        options: ["50% van het gewicht", "25%", "10%", "0–2%"],
+        answer: 3
+      }
+    ]
+  },
+  {
+    id: "tarsalia",
+    title: "Quiz 20 — Tarsalia",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Hoeveel tarsale beenderen heeft de mens?",
+        options: ["5", "7", "8", "10"],
+        answer: 1
+      },
+      {
+        prompt: "Welke twee tarsale botten dragen het lichaamsgewicht?",
+        options: ["Talus en naviculare", "Calcaneus en talus", "Cuboideum en calcaneus", "Cuneiforme mediale en talus"],
+        answer: 1
+      },
+      {
+        prompt: "Welk bot vormt de hiel?",
+        options: ["Talus", "Calcaneus", "Naviculare", "Cuboideum"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur articuleert met de tibia?",
+        options: ["Calcaneus", "Talus", "Naviculare", "Cuneiforme laterale"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het schipvormige tarsale bot?",
+        options: ["Calcaneus", "Talus", "Naviculare", "Cuboideum"],
+        answer: 2
+      },
+      {
+        prompt: "Welke drie tarsale botten liggen in een rij naast elkaar?",
+        options: ["Cuneiforme mediale, intermedium en laterale", "Talus, calcaneus en naviculare", "Cuboideum, naviculare en talus", "Calcaneus, cuboideum en naviculare"],
+        answer: 0
+      },
+      {
+        prompt: "Welk bot ligt lateraal van het naviculare?",
+        options: ["Calcaneus", "Talus", "Cuboideum", "Cuneiforme mediale"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet het uitsteeksel onder de talus op de calcaneus?",
+        options: ["Sustentaculum tali", "Tuber calcanei", "Apex calcanei", "Processus calcaneus"],
+        answer: 0
+      },
+      {
+        prompt: "Wat is de functie van het sustentaculum tali?",
+        options: ["Aanhechting quadriceps", "Ondersteunen van de talus", "Aanhechting hamstrings", "Articuleren met tibia"],
+        answer: 1
+      },
+      {
+        prompt: "Welk bot articuleert met het cuboideum?",
+        options: ["Talus", "Calcaneus", "Naviculare", "Alle bovenstaande"],
+        answer: 1
+      },
+      {
+        prompt: "Welke botten vormen het Chopart-gewricht?",
+        options: ["Talus-calcaneus", "Calcaneus-cuboideum en talus-naviculare", "Naviculare-cuneiforme", "Alle cuneiformia"],
+        answer: 1
+      },
+      {
+        prompt: "Waar ligt het tuber calcanei?",
+        options: ["Op de talus", "Op de calcaneus", "Op het naviculare", "Op het cuboideum"],
+        answer: 1
+      },
+      {
+        prompt: "Welk bot ligt direct voor de talus?",
+        options: ["Cuboideum", "Naviculare", "Calcaneus", "Cuneiforme mediale"],
+        answer: 1
+      },
+      {
+        prompt: "Welke botten articuleren met het naviculare?",
+        options: ["Talus en drie cuneiformia", "Calcaneus en cuboideum", "Talus en cuboideum", "Alleen cuneiforme intermedium"],
+        answer: 0
+      },
+      {
+        prompt: "Welk bot ligt lateraal van de calcaneus?",
+        options: ["Cuboideum", "Naviculare", "Talus", "Cuneiforme laterale"],
+        answer: 0
+      },
+      {
+        prompt: "Welk tarsaal bot is het hoogste in de voet?",
+        options: ["Cuboideum", "Calcaneus", "Talus", "Naviculare"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet het puntje achteraan de calcaneus voor de aanhechting van de achillespees?",
+        options: ["Tuber calcanei", "Apex calci", "Processus acromialis", "Tuber naviculare"],
+        answer: 0
+      },
+      {
+        prompt: "Welk bot ligt direct mediaal van het cuboideum?",
+        options: ["Calcaneus", "Naviculare", "Talus", "Cuneiforme laterale"],
+        answer: 1
+      },
+      {
+        prompt: "Welke tarsale botten liggen tussen de metatarsalen en het naviculare?",
+        options: ["Calcaneus", "Talus", "Cuneiforme botjes", "Cuboideum"],
+        answer: 2
+      },
+      {
+        prompt: "Wat is het enige tarsale bot dat geen spieraanhechtingen heeft?",
+        options: ["Calcaneus", "Naviculare", "Talus", "Cuboideum"],
+        answer: 2
+      }
+    ]
+  },
+  {
+    id: "talus",
+    title: "Quiz 21 — Talus",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Welk bot articuleert direct met de tibia?",
+        options: ["Calcaneus", "Talus", "Naviculare", "Cuboideum"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het bovenste gewrichtsvlak van de talus?",
+        options: ["Trochlea tali", "Facies navicularis", "Sustentaculum tali", "Caput tali"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe heet het voorste deel van de talus?",
+        options: ["Corpus tali", "Caput tali", "Collum tali", "Basis tali"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt tussen caput en corpus van de talus?",
+        options: ["Sulcus tali", "Collum tali", "Fovea tali", "Crista tali"],
+        answer: 1
+      },
+      {
+        prompt: "Welk tarsaal bot ligt direct onder de talus?",
+        options: ["Cuboideum", "Naviculare", "Calcaneus", "Cuneiforme laterale"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet de achterste knobbel van de talus?",
+        options: ["Tuber tali", "Sustentaculum tali", "Processus posterior tali", "Spina tali"],
+        answer: 2
+      },
+      {
+        prompt: "Waar articuleert de talus aan de voorzijde mee?",
+        options: ["Calcaneus", "Naviculare", "Cuboideum", "Cuneiforme mediale"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet de diepe groeve onder de talus die samen met de calcaneus het tarsale kanaal vormt?",
+        options: ["Sulcus tali", "Incisura talaris", "Fossa tali", "Meatus tali"],
+        answer: 0
+      },
+      {
+        prompt: "Welk bot draagt geen spieren?",
+        options: ["Calcaneus", "Talus", "Naviculare", "Cuboideum"],
+        answer: 1
+      },
+      {
+        prompt: "Met welk bot vormt de talus geen gewricht?",
+        options: ["Fibula", "Calcaneus", "Naviculare", "Cuboideum"],
+        answer: 3
+      },
+      {
+        prompt: "Hoe heet het gebied waar tibia en fibula samen op de talus rusten?",
+        options: ["Trochlea tali", "Sulcus tali", "Collum tali", "Caput tali"],
+        answer: 0
+      },
+      {
+        prompt: "De talus vormt samen met tibia en fibula het…",
+        options: ["Tarsometatarsale gewricht", "Subtalaire gewricht", "Bovenspronggewricht", "Midtarsale gewricht"],
+        answer: 2
+      },
+      {
+        prompt: "Welke bewegingen gebeuren in het bovenste spronggewricht?",
+        options: ["Inversie–eversie", "Pronatie–supinatie", "Dorsiflexie–plantairflexie", "Rotatie–antirotatie"],
+        answer: 2
+      },
+      {
+        prompt: "Wat ligt direct achter de talus?",
+        options: ["Calcaneus", "Achillespees", "Tuber calcanei", "Fibula"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur draagt het caput tali?",
+        options: ["Naviculare", "Calcaneus", "Cuboideum", "Talus zelf"],
+        answer: 0
+      },
+      {
+        prompt: "Wat vormt samen met sulcus tali de sinus tarsi?",
+        options: ["Sulcus navicularis", "Sulcus calcanei", "Sulcus cuneiformis", "Fossa tali"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is de functie van de trochlea tali?",
+        options: ["Articulatie met naviculare", "Aanhechting pezen", "Draagvlak voor tibia en fibula", "Aanhechting ligamenten"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet het middelste deel van de talus?",
+        options: ["Corpus tali", "Caput tali", "Collum tali", "Basis tali"],
+        answer: 0
+      },
+      {
+        prompt: "Waar articuleert de talus inferieur mee?",
+        options: ["Naviculare", "Tibia", "Calcaneus", "Fibula"],
+        answer: 2
+      },
+      {
+        prompt: "Wat is bijzonder aan de talus?",
+        options: ["Bevat meerdere spieraanhechtingen", "Draagt bijna volledig het lichaamsgewicht", "Heeft geen spieraanhechtingen", "Articuleert niet met de tibia"],
+        answer: 2
+      }
+    ]
+  },
+  {
+    id: "calcaneus",
+    title: "Quiz 22 — Calcaneus",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Welk bot vormt de hiel?",
+        options: ["Talus", "Calcaneus", "Cuboideum", "Naviculare"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het grote achterste uitsteeksel waar de achillespees aanhecht?",
+        options: ["Tuber calcanei", "Sustentaculum tali", "Trochlea calcanei", "Facies posterior tali"],
+        answer: 0
+      },
+      {
+        prompt: "Welke structuur draagt de talus aan de mediale zijde?",
+        options: ["Trochlea calcanei", "Sustentaculum tali", "Processus posterior", "Fovea tali"],
+        answer: 1
+      },
+      {
+        prompt: "Waar ligt de sulcus calcanei?",
+        options: ["Op het naviculare", "Tussen talus en tibia", "Op de calcaneus dorsaal", "Op de calcaneus superieur"],
+        answer: 3
+      },
+      {
+        prompt: "Wat vormt samen met sulcus tali de sinus tarsi?",
+        options: ["Sulcus navicularis", "Sulcus cuneiformis", "Sulcus calcanei", "Fovea calcanei"],
+        answer: 2
+      },
+      {
+        prompt: "Welk bot articuleert met de voorzijde van de calcaneus?",
+        options: ["Naviculare", "Cuboideum", "Talus", "Tibia"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het zijwaartse botuitsteeksel op de calcaneus?",
+        options: ["Trochlea calcanei", "Apex calcanei", "Sustentaculum tali", "Spina calcanei"],
+        answer: 0
+      },
+      {
+        prompt: "Wat loopt door de sulcus achter de trochlea calcanei?",
+        options: ["Pezen peroneus longus en brevis", "Achillespees", "Plantair ligament", "Tibialis posterior"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe heet de articulatie tussen calcaneus en talus?",
+        options: ["Art. talocruralis", "Art. subtalaris", "Art. calcaneonavicularis", "Art. tarsometatarsalis"],
+        answer: 1
+      },
+      {
+        prompt: "Welke bewegingen gebeuren in het subtalaire gewricht?",
+        options: ["Flexie–extensie", "Dorsiflexie–plantairflexie", "Inversie–eversie", "Supinatie–pronatie"],
+        answer: 2
+      },
+      {
+        prompt: "Wat ligt inferieur op de calcaneus?",
+        options: ["Tuber calcanei", "Sustentaculum tali", "Processus anticus", "Fossa calcanei"],
+        answer: 0
+      },
+      {
+        prompt: "Wat articuleert met de bovenkant van de calcaneus?",
+        options: ["Talus", "Naviculare", "Cuboideum", "Cuneiforme laterale"],
+        answer: 0
+      },
+      {
+        prompt: "Welke zijde van de calcaneus is breder?",
+        options: ["Proximaal", "Distaal", "Mediaal", "Lateraal"],
+        answer: 0
+      },
+      {
+        prompt: "Wat is de grootste functie van het calcaneus?",
+        options: ["Aanhechting voor adductor hallucis", "Schokabsorptie en dragen lichaamsgewicht", "Roteren van enkel", "Verbinden van tibia met fibula"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur ligt mediaal op de calcaneus?",
+        options: ["Sustentaculum tali", "Trochlea calcanei", "Cuboid facet", "Achilles tubercle"],
+        answer: 0
+      },
+      {
+        prompt: "Wat vormt de achterzijde van de calcaneus?",
+        options: ["Sustentaculum", "Tuber calcanei", "Tarsale sinus", "Trochlea calcanei"],
+        answer: 1
+      },
+      {
+        prompt: "Wat articuleert met het calcaneus aan de laterale zijde?",
+        options: ["Naviculare", "Talus", "Cuboideum", "Tibia"],
+        answer: 2
+      },
+      {
+        prompt: "De calcaneus is…",
+        options: ["Het grootste tarsale bot", "Het hoogste tarsale bot", "Het kleinste tarsale bot", "Het minst dragende bot"],
+        answer: 0
+      },
+      {
+        prompt: "Welke pees loopt onder het sustentaculum tali door?",
+        options: ["Achillespees", "M. tibialis posterior", "M. peroneus longus", "M. extensor hallucis longus"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is de belangrijkste aanhechting op het tuber calcanei?",
+        options: ["Flexor digitorum", "Achillespees", "Quadratus plantae", "Plantair ligament"],
+        answer: 1
+      }
+    ]
+  },
+  {
+    id: "naviculare",
+    title: "Quiz 23 — Os Naviculare",
+    level: "Moeilijk • 5 vragen",
+    questions: [
+      {
+        prompt: "Welke structuur ligt aan de mediale zijde van het os naviculare?",
+        options: ["Tuberositas ossis navicularis", "Facies articularis cuboidea", "Sulcus tali", "Processus lateralis"],
+        answer: 0
+      },
+      {
+        prompt: "Wat articuleert met het naviculare?",
+        options: ["Calcaneus", "Talus", "Metatarsaal I", "Fibula"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt ventraal op het naviculare?",
+        options: ["Facies articularis tali", "Facies articularis cuneiformis", "Tuberositas navicularis", "Sulcus calcanei"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur ligt dorsaal?",
+        options: ["Facies articulares voor cuneiformia", "Tuberositas navicularis", "Sustentaculum tali", "Processus anterior"],
+        answer: 0
+      },
+      {
+        prompt: "Wat ligt het meest proximaal?",
+        options: ["Facies articularis cuboidea", "Facies articularis tali", "Tuberculum mediale", "Facies cuneiformis intermedia"],
+        answer: 1
+      }
+    ]
+  },
+  {
+    id: "cuboideum",
+    title: "Quiz 24 — Os Cuboideum",
+    level: "Moeilijk • 5 vragen",
+    questions: [
+      {
+        prompt: "Wat ligt lateraal op het cuboideum?",
+        options: ["Sulcus tendinis peronei longi", "Facies articularis navicularis", "Facies articularis lateralis", "Processus medialis"],
+        answer: 0
+      },
+      {
+        prompt: "Het cuboideum articuleert met…",
+        options: ["Tibia", "Talus, naviculare en metatarsalen", "Calcaneus, laterale cuneiform en MT IV/V", "Alle cuneiformia"],
+        answer: 2
+      },
+      {
+        prompt: "Wat ligt plantair op het cuboideum?",
+        options: ["Sulcus tendinis peronei longi", "Facies articularis calcanei", "Facies dorsalis", "Facet voor MT I"],
+        answer: 0
+      },
+      {
+        prompt: "Wat ligt dorsaal op het cuboideum?",
+        options: ["Tuber calcanei", "Facies dorsalis ossis cuboidei", "Processus anterior tali", "Sustentaculum tali"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt mediaal op het cuboideum?",
+        options: ["Groeven voor peroneus brevis", "Facies articularis voor os cuneiforme laterale", "Crista medialis tali", "Facies lateralis ossis cuboidei"],
+        answer: 1
+      }
+    ]
+  },
+  {
+    id: "cuneiformia",
+    title: "Quiz 25 — Ossa Cuneiformia",
+    level: "Moeilijk • 7 vragen",
+    questions: [
+      {
+        prompt: "Welk cuneiforme ligt het meest mediaal?",
+        options: ["Cuneiforme mediale (I)", "Cuneiforme intermedium (II)", "Cuneiforme laterale (III)", "Cuboideum"],
+        answer: 0
+      },
+      {
+        prompt: "Wat ligt dorsaal op alle cuneiformia?",
+        options: ["Facies plantaris", "Facies dorsalis", "Tuberositas cuneiforme", "Sulcus tendineus"],
+        answer: 1
+      },
+      {
+        prompt: "Cuneiforme II articuleert met…",
+        options: ["MT I en III", "MT II", "MT III en IV", "Geen metatarsaal"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt plantair op cuneiforme I?",
+        options: ["Sulcus voor m. tibialis posterior", "Facies dorsalis", "Facies articularis cuboidea", "Tuberculum mediale"],
+        answer: 0
+      },
+      {
+        prompt: "Welke structuur ligt lateraal op cuneiforme III?",
+        options: ["MT II", "MT III", "MT IV", "Naviculare"],
+        answer: 2
+      },
+      {
+        prompt: "Wat articuleert met alle drie de cuneiformia?",
+        options: ["Talus", "Naviculare", "Calcaneus", "Cuboideum"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt proximaal?",
+        options: ["Gezichtsvlak naar metatarsalen", "Facies articularis navicularis", "Tuberositas mediale", "Sulcus tendineus"],
+        answer: 1
+      }
+    ]
+  },
+  {
+    id: "metatarsalia",
+    title: "Quiz 26 — Metatarsalia + Teenbotten",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Hoeveel tarsale botten heeft de voet?",
+        options: ["5", "6", "7", "8"],
+        answer: 2
+      },
+      {
+        prompt: "Welke twee tarsale botten dragen het meeste lichaamsgewicht?",
+        options: ["Naviculare en cuboideum", "Talus en calcaneus", "Cuneiforme en cuboideum", "Talus en naviculare"],
+        answer: 1
+      },
+      {
+        prompt: "Welke botten articuleren met de talus?",
+        options: ["Tibia, fibula, calcaneus en naviculare", "Calcaneus, naviculare en cuboideum", "Tibia, fibula, naviculare en cuboideum", "Tibia, calcaneus en cuboideum"],
+        answer: 0
+      },
+      {
+        prompt: "Welk bot ligt direct voor de talus?",
+        options: ["Calcaneus", "Naviculare", "Cuboideum", "Cuneiforme mediale"],
+        answer: 1
+      },
+      {
+        prompt: "Welk bot ligt lateraal van het naviculare?",
+        options: ["Calcaneus", "Cuboideum", "Cuneiforme laterale", "Talus"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is het enige tarsale bot zonder spieraanhechting?",
+        options: ["Naviculare", "Cuneiforme laterale", "Talus", "Calcaneus"],
+        answer: 2
+      },
+      {
+        prompt: "Hoeveel metatarsalen zijn er?",
+        options: ["3", "5", "7", "14"],
+        answer: 1
+      },
+      {
+        prompt: "Welke teen heeft slechts twee phalanges?",
+        options: ["Teen 2", "Teen 3", "Teen 4", "Teen 1 (hallux)"],
+        answer: 3
+      },
+      {
+        prompt: "Welke drie soorten teenkootjes bestaan er?",
+        options: ["Basis – corpus – apex", "Proximaal – mediaal – distaal", "Lateraal – mediaal – intermediaal", "Dorsaal – plantair – caudaal"],
+        answer: 1
+      },
+      {
+        prompt: "Welke botten liggen tussen het naviculare en de metatarsalen?",
+        options: ["Cuboideum", "Cuneiformia", "Calcaneus", "Talus"],
+        answer: 1
+      },
+      {
+        prompt: "Wat articuleert met het cuboideum?",
+        options: ["Calcaneus, MT IV en MT V", "Naviculare, MT I en MT II", "Talus, MT III en MT IV", "Calcaneus, naviculare en MT I"],
+        answer: 0
+      },
+      {
+        prompt: "Het Chopart-gewricht bestaat uit…",
+        options: ["Talus–naviculare en calcaneus–cuboideum", "Calcaneus–naviculare", "Tarsometatarsaal gewricht", "Interphalangeaal gewricht"],
+        answer: 0
+      },
+      {
+        prompt: "Het Lisfranc-gewricht verbindt…",
+        options: ["Talus met calcaneus", "Tarsus met metatarsus", "Metatarsus met phalanges", "Calcaneus met naviculare"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is de functie van het tuber calcanei?",
+        options: ["Aanhechting achillespees", "Steun voor de talus", "Articulatie met metatarsalen", "Aanhechting extensoren"],
+        answer: 0
+      },
+      {
+        prompt: "Hoeveel gewrichten heeft de grote teen (hallux)?",
+        options: ["1", "2", "3", "4"],
+        answer: 1
+      },
+      {
+        prompt: "Welk bot is het hoogste tarsale bot?",
+        options: ["Calcaneus", "Talus", "Naviculare", "Cuneiforme mediale"],
+        answer: 1
+      },
+      {
+        prompt: "Welke beweging gebeurt in het subtalaire gewricht?",
+        options: ["Flexie–extensie", "Inversie–eversie", "Rotatie–pronatie", "Dorsiflexie–plantairflexie"],
+        answer: 1
+      },
+      {
+        prompt: "Welke metatarsalen articuleren met het cuboideum?",
+        options: ["MT I – MT II", "MT II – MT III", "MT IV – MT V", "MT III – MT IV"],
+        answer: 2
+      },
+      {
+        prompt: "Welk bot vormt het ‘keystone’ van de mediale voetboog?",
+        options: ["Calcaneus", "Cuneiforme laterale", "Naviculare", "Talus"],
+        answer: 2
+      },
+      {
+        prompt: "Welke twee botten vormen samen het grootste deel van het achterste voetsegment?",
+        options: ["Cuneiformia", "Talus en naviculare", "Calcaneus en cuboideum", "Talus en calcaneus"],
+        answer: 3
+      }
+    ]
   }
+
 ];
 
 const quizGrid = document.getElementById("quizGrid");
