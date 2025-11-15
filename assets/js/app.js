@@ -1343,6 +1343,7 @@ const state = {
 };
 
 const letters = ["A", "B", "C", "D"];
+const questionAnimationClass = "question-zone--animate";
 
 function renderMenu() {
   if (!quizGrid) return;
@@ -1406,6 +1407,7 @@ function renderQuestion() {
     <h4>${question.prompt}</h4>
     <div class="options">${optionsMarkup}</div>
   `;
+  animateQuestionZone();
 
   questionZone.querySelectorAll(".option").forEach((optionBtn) => {
     optionBtn.addEventListener("click", () => selectOption(optionBtn));
@@ -1438,6 +1440,13 @@ nextQuestionBtn.addEventListener("click", () => {
     showResults();
   }
 });
+
+function animateQuestionZone() {
+  if (!questionZone) return;
+  questionZone.classList.remove(questionAnimationClass);
+  void questionZone.offsetWidth;
+  questionZone.classList.add(questionAnimationClass);
+}
 
 function showResults() {
   const quiz = state.currentQuiz;

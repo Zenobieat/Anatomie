@@ -1,13 +1,13 @@
 :root {
-  --bg: #05050a;
-  --panel: rgba(11, 13, 32, 0.85);
-  --accent: #73f2d4;
-  --accent-2: #8a5bff;
-  --text: #f6f6ff;
-  --muted: #a0a3c4;
-  --danger: #ff5f8f;
-  --success: #6df2a6;
-  --border: rgba(255, 255, 255, 0.08);
+  --bg: #f6f8ff;
+  --panel: rgba(255, 255, 255, 0.9);
+  --accent: #0b5fff;
+  --accent-2: #00c2ff;
+  --text: #0c142b;
+  --muted: #5d6276;
+  --danger: #ff4d6d;
+  --success: #2fd38a;
+  --border: rgba(9, 20, 58, 0.1);
   font-size: 16px;
 }
 
@@ -19,11 +19,22 @@
 
 body {
   font-family: "Space Grotesk", system-ui, sans-serif;
-  background: radial-gradient(circle at top, #0f172a 0%, #05050a 60%);
+  background: radial-gradient(circle at top left, #ffffff 0%, #f0f4ff 45%, #e0e7ff 100%);
   color: var(--text);
   min-height: 100vh;
   line-height: 1.5;
   padding-bottom: 4rem;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 20% 20%, rgba(11, 95, 255, 0.08), transparent 55%),
+    radial-gradient(circle at 80% 0%, rgba(0, 194, 255, 0.1), transparent 60%);
+  pointer-events: none;
+  z-index: -1;
 }
 
 main {
@@ -38,6 +49,11 @@ main {
   gap: 2rem;
   padding: 3rem clamp(1rem, 4vw, 4rem);
   align-items: center;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(230, 239, 255, 0.8));
+  border-radius: 32px;
+  margin: 2rem auto 3rem;
+  width: min(1200px, 100%);
+  box-shadow: 0 30px 80px rgba(15, 24, 61, 0.15);
 }
 
 .hero__content h1 {
@@ -48,7 +64,7 @@ main {
 .hero__content span {
   display: block;
   font-size: 1rem;
-  color: var(--muted);
+  color: var(--accent);
   margin-top: 0.4rem;
 }
 
@@ -68,21 +84,21 @@ main {
 .hero__cta {
   border: none;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  color: #05050a;
+  color: #ffffff;
   font-weight: 700;
   padding: 0.95rem 1.75rem;
   border-radius: 999px;
   cursor: pointer;
-  box-shadow: 0 10px 30px rgba(115, 242, 212, 0.35);
+  box-shadow: 0 20px 30px rgba(13, 88, 255, 0.35);
 }
 
 .hero__animation {
   position: relative;
   min-height: 320px;
   border-radius: 30px;
-  background: linear-gradient(160deg, rgba(115, 242, 212, 0.15), rgba(138, 91, 255, 0.1));
+  background: linear-gradient(160deg, rgba(11, 95, 255, 0.15), rgba(0, 194, 255, 0.15));
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(11, 23, 58, 0.08);
 }
 
 .spine {
@@ -100,11 +116,11 @@ main {
   width: 4rem;
   height: 1rem;
   border-radius: 999px;
-  border: 2px solid rgba(255, 255, 255, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.7);
   border-left-color: transparent;
   border-right-color: transparent;
   animation: wiggle 3s ease-in-out infinite;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(6px);
 }
 
 .spine span:nth-child(odd) {
@@ -140,7 +156,7 @@ main {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(115, 242, 212, 0.7), transparent 60%);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.7), transparent 60%);
   filter: blur(30px);
   top: 50%;
   left: 50%;
@@ -169,8 +185,8 @@ main {
   border-radius: 24px;
   padding: 2rem;
   margin-bottom: 2rem;
-  box-shadow: 0 20px 45px rgba(5, 5, 10, 0.55);
-  backdrop-filter: blur(15px);
+  box-shadow: 0 25px 50px rgba(15, 24, 61, 0.12);
+  backdrop-filter: blur(10px);
 }
 
 .panel__header {
@@ -187,18 +203,19 @@ main {
   border: 1px solid var(--border);
   padding: 1.5rem;
   border-radius: 18px;
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(245, 248, 255, 0.9);
   cursor: pointer;
-  transition: transform 0.3s ease, border-color 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   min-height: 180px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 0 15px 30px rgba(12, 20, 43, 0.12);
 }
 
 .quiz-card:hover {
   transform: translateY(-6px);
-  border-color: rgba(115, 242, 212, 0.6);
+  box-shadow: 0 25px 40px rgba(12, 20, 43, 0.18);
 }
 
 .quiz-card span {
@@ -241,7 +258,8 @@ main {
 
 .btn.primary {
   background: linear-gradient(120deg, var(--accent), var(--accent-2));
-  color: #05050a;
+  color: #ffffff;
+  box-shadow: 0 10px 25px rgba(11, 95, 255, 0.3);
 }
 
 .btn.ghost {
@@ -259,7 +277,12 @@ main {
   border-radius: 18px;
   padding: 1.5rem;
   min-height: 280px;
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.question-zone--animate {
+  animation: fadeCard 0.6s ease;
 }
 
 .question-zone h4 {
@@ -275,14 +298,19 @@ main {
 
 .option {
   padding: 0.85rem 1rem;
-  border: 1px solid var(--border);
+  border: 1px solid rgba(12, 20, 43, 0.12);
   border-radius: 14px;
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(247, 248, 255, 0.95);
   cursor: pointer;
   display: flex;
   gap: 0.75rem;
   align-items: flex-start;
-  transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.option:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(12, 20, 43, 0.12);
 }
 
 .option strong {
@@ -292,17 +320,17 @@ main {
 
 .option.selected {
   border-color: var(--accent);
-  background: rgba(115, 242, 212, 0.08);
+  box-shadow: 0 10px 25px rgba(11, 95, 255, 0.15);
 }
 
 .option.correct {
   border-color: var(--success);
-  background: rgba(109, 242, 166, 0.12);
+  background: rgba(47, 211, 138, 0.08);
 }
 
 .option.incorrect {
   border-color: var(--danger);
-  background: rgba(255, 95, 143, 0.12);
+  background: rgba(255, 77, 109, 0.08);
 }
 
 .quiz-footer {
@@ -323,7 +351,7 @@ main {
   width: 100%;
   height: 8px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(12, 20, 43, 0.08);
   margin-top: 0.45rem;
 }
 
@@ -363,7 +391,7 @@ main {
   border: 1px solid var(--border);
   padding: 1rem;
   border-radius: 14px;
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.92);
 }
 
 .result-detail.correct {
@@ -391,6 +419,17 @@ footer {
   text-align: center;
   color: var(--muted);
   margin-top: 2rem;
+}
+
+@keyframes fadeCard {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 640px) {
