@@ -1337,6 +1337,25 @@ const resultDetails = document.getElementById("resultDetails");
 const screens = document.querySelectorAll("[data-screen]");
 const catalogScreen = document.getElementById("catalogScreen");
 
+const menuSections = [
+  {
+    title: "Wervels & Thorax",
+    items: ["atlas", "axis", "cervicaal", "thoracaal", "lumbaal", "sacrum", "costae", "sternum"]
+  },
+  {
+    title: "Schoudergordel & Arm",
+    items: ["clavicula", "scapula", "humerus", "radius", "ulna", "carpi", "hand"]
+  },
+  {
+    title: "Heup & Been",
+    items: ["os-coxae", "femur", "patella", "tibia", "fibula"]
+  },
+  {
+    title: "Voet",
+    items: ["talus", "calcaneus", "naviculare", "cuboideum", "cuneiformia", "metatarsalia"]
+  }
+];
+
 const state = {
   currentQuiz: null,
   currentIndex: 0,
@@ -1347,22 +1366,51 @@ const state = {
 const letters = ["A", "B", "C", "D"];
 const questionAnimationClass = "question-zone--animate";
 
+function shortQuizLabel(quiz) {
+  const parts = quiz.title.split("—");
+  return parts[1] ? parts[1].trim() : quiz.title;
+}
+
 function renderMenu() {
   if (!quizGrid) return;
-  quizGrid.innerHTML = quizData
-    .map(
-      (quiz) => `
-      <article class="quiz-card" data-id="${quiz.id}">
-        <span class="quiz-card__tag">${quiz.emoji} ${quiz.level}</span>
-        <h3>${quiz.title}</h3>
-        <span>${quiz.questions.length} vragen · score op 20</span>
-      </article>
-    `
-    )
+
+  const itemsById = quizData.reduce((acc, quiz) => {
+    acc[quiz.id] = quiz;
+    return acc;
+  }, {});
+
+  quizGrid.innerHTML = menuSections
+    .map((section, index) => {
+      const itemsMarkup = section.items
+        .map((quizId) => {
+          const quiz = itemsById[quizId];
+          if (!quiz) return "";
+          return `
+            <li>
+              <button class="quiz-option" data-id="${quiz.id}">
+                <span>${shortQuizLabel(quiz)}</span>
+              </button>
+            </li>
+          `;
+        })
+        .join("");
+
+      return `
+        <details class="menu-section" ${index === 0 ? "open" : ""}>
+          <summary>
+            <span>${section.title}</span>
+            <span class="menu-section__count">${section.items.length}</span>
+          </summary>
+          <ul class="menu-section__list">
+            ${itemsMarkup}
+          </ul>
+        </details>
+      `;
+    })
     .join("");
 
-  quizGrid.querySelectorAll(".quiz-card").forEach((card) => {
-    card.addEventListener("click", () => startQuiz(card.dataset.id));
+  quizGrid.querySelectorAll(".quiz-option").forEach((button) => {
+    button.addEventListener("click", () => startQuiz(button.dataset.id));
   });
 }
 
