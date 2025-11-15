@@ -1,4 +1,545 @@
-const quizData = [];
+const quizData = [
+  {
+    id: "atlas",
+    title: "Quiz 1 — Atlas (C1)",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Waar zit de fovea dentis?",
+        options: [
+          "Op de arcus posterior",
+          "Op de massa lateralis",
+          "Op de arcus anterior",
+          "Op het processus transversus"
+        ],
+        answer: 2
+      },
+      {
+        prompt: "Wat schuift in de fovea dentis?",
+        options: ["Caput radii", "Dens van axis", "Tuberculum posterius", "Processus costalis"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet de voorkant van de ring van de atlas?",
+        options: ["Arcus posterior", "Arcus anterior", "Lamina arcus", "Crista anterior"],
+        answer: 1
+      },
+      {
+        prompt: "Welk deel van de atlas draagt het gewicht van het hoofd?",
+        options: ["Tuberculum anterius", "Massa lateralis", "Arcus posterior", "Foramen transversarium"],
+        answer: 1
+      },
+      {
+        prompt: "Wat loopt door het foramen transversarium?",
+        options: ["Ruggenmerg", "Vertebrale arteriën", "N. phrenicus", "V. jugularis interna"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het kleine knobbeltje aan de achterkant van de atlas?",
+        options: ["Tuberculum posterius", "Spina atlas", "Processus spinosus", "Crista dorsalis"],
+        answer: 0
+      },
+      {
+        prompt: "Wat ontbreekt bij de atlas t.o.v. andere wervels?",
+        options: ["Arcus", "Processus transversus", "Corpus vertebrae", "Foramen vertebrale"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet het gewrichtsvlak voor de condyli occipitales?",
+        options: ["Facies costalis", "Facies articularis superior", "Facies articularis inferior", "Fovea cranialis"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is de functie van de massa lateralis?",
+        options: ["Aanhechting ribben", "Draaibeweging mogelijk maken", "Gewrichtsvlak voor schedel dragen", "Aanhechting rugspieren"],
+        answer: 2
+      },
+      {
+        prompt: "Wat is kenmerkend voor de atlas?",
+        options: ["Een dikke processus spinosus", "Een dens", "Een ringvormige structuur", "Een groot corpus"],
+        answer: 2
+      },
+      {
+        prompt: "Wat ligt er direct achter de arcus anterior?",
+        options: ["Tuberculum posterius", "Fovea dentis", "Facies articularis superior", "Foramen transversarium"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het grote gat in de atlas?",
+        options: ["Foramen transversarium", "Foramen magnum", "Foramen vertebrale", "Foramen intervertebrale"],
+        answer: 2
+      },
+      {
+        prompt: "Welke structuur articuleert met de axis?",
+        options: ["Facies articularis superior", "Fovea dentis", "Facies articularis inferior", "Arcus posterior"],
+        answer: 2
+      },
+      {
+        prompt: "Wat is de functie van de arcus posterior?",
+        options: ["Beschermt ruggenmerg", "Verankert ribben", "Vormt draaipunt met dens", "Vormt gewricht met schedel"],
+        answer: 0
+      },
+      {
+        prompt: "Wat is de naam van het knobbeltje aan de voorzijde?",
+        options: ["Tuberculum anterius", "Tuberculum laterale", "Tuberculum articulare", "Processus anterior"],
+        answer: 0
+      },
+      {
+        prompt: "De atlas laat voornamelijk welke beweging toe?",
+        options: ["‘Nee’-beweging", "‘Ja’-beweging", "Lateroflexie", "Hyperextensie"],
+        answer: 1
+      },
+      {
+        prompt: "Op welke structuur rust de schedel?",
+        options: ["Facies articularis inferior", "Tuberculum anterius", "Facies articularis superior", "Arcus posterior"],
+        answer: 2
+      },
+      {
+        prompt: "Wat vormt het dorsale deel van de ring?",
+        options: ["Arcus anterior", "Tuberculum anterius", "Arcus posterior", "Massa lateralis"],
+        answer: 2
+      },
+      {
+        prompt: "Wat bevindt zich posterieur aan het foramen vertebrale?",
+        options: ["Arcus posterior", "Dens", "Corpus vertebrae", "Massa lateralis"],
+        answer: 0
+      },
+      {
+        prompt: "Welke uitspraak klopt over de atlas?",
+        options: ["Atlas heeft een corpus", "Atlas heeft geen processus transversus", "Atlas heeft een typische processus spinosus", "Atlas heeft geen corpus"],
+        answer: 3
+      }
+    ]
+  },
+  {
+    id: "axis",
+    title: "Quiz 2 — Axis (C2)",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Wat is het meest kenmerkende deel van de axis?",
+        options: ["Tuberculum anterius", "Dens", "Corpus vertebrae ontbreekt", "Foramen transversarium ontbreekt"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het puntje bovenaan de dens?",
+        options: ["Crista dentis", "Apex dentis", "Tuberculum dentale", "Spina dentis"],
+        answer: 1
+      },
+      {
+        prompt: "Waar articuleert de dens mee?",
+        options: ["Arcus posterior van de atlas", "Facies articularis inferior van de atlas", "Fovea dentis in de atlas", "Corpus atlantis"],
+        answer: 2
+      },
+      {
+        prompt: "Waarvoor dient de dens?",
+        options: ["Voor flexie/extensie", "Voor de draaibeweging (‘nee’-beweging)", "Voor lateroflexie", "Voor stabiliteit van het sacrum"],
+        answer: 1
+      },
+      {
+        prompt: "De axis heeft een duidelijk ontwikkeld…",
+        options: ["Corpus vertebrae", "Apex costalis", "Ramus vertebralis", "Tuberculum posterior"],
+        answer: 0
+      },
+      {
+        prompt: "De processus spinosus van de axis is…",
+        options: ["Niet aanwezig", "Dubbel gespleten", "Zeer lang", "Glad en rond"],
+        answer: 1
+      },
+      {
+        prompt: "Waar liggen de facies articulares superiores van de axis?",
+        options: ["Boven op de dens", "Lateraal van de dens", "Onder de massa lateralis", "Dorsaal van de arcus anterior"],
+        answer: 1
+      },
+      {
+        prompt: "Wat loopt door het foramen transversarium van de axis?",
+        options: ["Spinale zenuwen", "Vena cava", "A. vertebralis", "Slagaders naar het sacrum"],
+        answer: 2
+      },
+      {
+        prompt: "Waar bevindt zich het corpus vertebrae van de axis?",
+        options: ["Het is afwezig", "Onder de dens", "Op de arcus posterior", "Onder de fovea dentis"],
+        answer: 1
+      },
+      {
+        prompt: "Welke beweging gebeurt tussen atlas en axis?",
+        options: ["‘Ja’-beweging", "Lateroflexie", "‘Nee’-beweging", "Extensie"],
+        answer: 2
+      },
+      {
+        prompt: "Welk deel van de axis articuleert met de atlas?",
+        options: ["Processus spinosus", "Facies articularis superior", "Arcus posterior", "Apex dentis"],
+        answer: 1
+      },
+      {
+        prompt: "Waar ligt de dens t.o.v. de axis?",
+        options: ["Ventraal", "Dorsaal", "Lateraal", "Caudaal"],
+        answer: 0
+      },
+      {
+        prompt: "Wat ligt dorsaal van het corpus van de axis?",
+        options: ["Dens", "Foramen vertebrale", "Processus spinosus", "Processus articularis inferior"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het botdeel waar ruggenmerg doorheen loopt?",
+        options: ["Foramen dentis", "Foramen transversarium", "Foramen articulare", "Foramen vertebrale"],
+        answer: 3
+      },
+      {
+        prompt: "Welke structuur ligt direct achter de dens?",
+        options: ["Ligamenten", "Ruggenmerg", "Arcus posterior atlas", "Fovea dentis"],
+        answer: 2
+      },
+      {
+        prompt: "Wat zit er op de apex dentis?",
+        options: ["Niets, het is een punt", "Een gewrichtsvlak", "Aanhechting voor ribben", "Een peesgroeve"],
+        answer: 0
+      },
+      {
+        prompt: "De processus articularis inferior staat in verbinding met…",
+        options: ["Axis", "Atlas", "C3 (cervicale wervel)", "Sacrum"],
+        answer: 2
+      },
+      {
+        prompt: "De axis maakt deel uit van welke groep wervels?",
+        options: ["Thoracaal", "Sacraal", "Cervicaal", "Lumbaal"],
+        answer: 2
+      },
+      {
+        prompt: "Wat ligt er lateraal op de axis?",
+        options: ["Processus transversus", "Dens", "Apex dentis", "Tuberculum transversum"],
+        answer: 0
+      },
+      {
+        prompt: "Wat is de functie van de processus spinosus bij de axis?",
+        options: ["Draagt schedel", "Geeft aanhechting aan spieren", "Articuleert met atlas", "Maakt rotatie mogelijk"],
+        answer: 1
+      }
+    ]
+  },
+  {
+    id: "cervicaal",
+    title: "Quiz 3 — Cervicale wervels (C3–C7)",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Wat is het typische kenmerk van cervicale wervels?",
+        options: ["Geen foramen transversarium", "Foramen transversarium aanwezig", "Ze hebben een dens", "Ze hebben zeer lange spinosi"],
+        answer: 1
+      },
+      {
+        prompt: "Welke vorm heeft het corpus van een cervicale wervel?",
+        options: ["Rond", "Driehoekig", "Rechthoekig", "Hartvormig"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe ziet het foramen vertebrale eruit bij cervicale wervels?",
+        options: ["Rond", "Driehoekig", "Ovaal", "Klein en smal"],
+        answer: 1
+      },
+      {
+        prompt: "Wat loopt door het foramen transversarium?",
+        options: ["Ruggenmerg", "A. vertebralis", "N. vagus", "V. cava superior"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is kenmerkend voor de processus spinosus bij C3–C6?",
+        options: ["Ze zijn gespleten", "Ze zijn niet aanwezig", "Ze zijn massief en rond", "Ze wijzen recht naar boven"],
+        answer: 0
+      },
+      {
+        prompt: "Wat is het belangrijkste verschil tussen C7 en andere cervicale wervels?",
+        options: ["C7 heeft geen corpus", "C7 heeft geen foramen transversarium", "C7 heeft een zeer prominente processus spinosus", "C7 heeft een dens"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe noemt men de wervel C7?",
+        options: ["Atlas", "Axis", "Vertebra prominens", "Cervicale tuberculum"],
+        answer: 2
+      },
+      {
+        prompt: "Wat is de functie van de processus transversus?",
+        options: ["Beschermen van ruggenmerg", "Aanhechting van spieren", "Draaipunt van rotatie", "Contactvlak met ribben"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe staat de processus spinosus t.o.v. de wervelboog?",
+        options: ["Ventraal", "Lateraal", "Dorsaal", "Craniaal"],
+        answer: 2
+      },
+      {
+        prompt: "Wat ligt er direct achter het corpus vertebrae?",
+        options: ["Processus transversus", "Foramen transversarium", "Arcus vertebrae", "Processus articularis superior"],
+        answer: 2
+      },
+      {
+        prompt: "Welke structuur vormt het gewricht met bovenliggende wervel?",
+        options: ["Facies articularis superior", "Facies costalis", "Fovea ribalis", "Tuberculum articulare"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe ziet de processus transversus eruit in cervicale wervels?",
+        options: ["Verdikt en naar boven gericht", "Bevat een opening (foramen)", "Zeer kort", "Naar mediaal gericht"],
+        answer: 1
+      },
+      {
+        prompt: "Welke bewegingen zijn het meest mogelijk in de cervicale regio?",
+        options: ["Rotatie", "Flexie-extensie + rotatie", "Alleen extensie", "Enkel lateroflexie"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt er in het foramen vertebrale?",
+        options: ["Longslagaders", "Ruggenmerg", "Slokdarm", "Luchtpijp"],
+        answer: 1
+      },
+      {
+        prompt: "Waarvoor dient het corpus vertebrae vooral?",
+        options: ["Bescherming", "Aanhechting spieren", "Dragende functie", "Rotatiefunctie"],
+        answer: 2
+      },
+      {
+        prompt: "Welke structuur hoort NIET bij cervicale wervels?",
+        options: ["Foramen transversarium", "Dens", "Processus spinosus", "Corpus vertebrae"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe staan de gewrichtsoppervlakken bij cervicale wervels?",
+        options: ["Heel vlak", "Heel steil", "Loodrecht", "Horizontaal"],
+        answer: 0
+      },
+      {
+        prompt: "Welke wervel is het meest beweeglijk?",
+        options: ["Sacraal", "Lumbaal", "Thoracaal", "Cervicaal"],
+        answer: 3
+      },
+      {
+        prompt: "Hoe heet het deel tussen corpus en processus spinosus?",
+        options: ["Arcus vertebrae", "Tuberculum posterior", "Ramus dorsalis", "Fovea arcus"],
+        answer: 0
+      },
+      {
+        prompt: "Waar zit de processus articularis inferior?",
+        options: ["Boven de massa lateralis", "Onder de processus articularis superior", "Op het corpus", "In het foramen vertebrale"],
+        answer: 1
+      }
+    ]
+  },
+  {
+    id: "thoracaal",
+    title: "Quiz 4 — Thoracale wervels (T1–T12)",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Wat is het typische kenmerk van thoracale wervels?",
+        options: ["Ze hebben foramen transversarium", "Ze articuleren met ribben", "Ze hebben een dens", "Ze hebben geen processus spinosus"],
+        answer: 1
+      },
+      {
+        prompt: "Welke vorm heeft het foramen vertebrale bij thoracale wervels?",
+        options: ["Driehoekig", "Rond", "Rechthoekig", "Hartvormig"],
+        answer: 0
+      },
+      {
+        prompt: "Wat is de vorm van het corpus bij een thoracale wervel?",
+        options: ["Rechthoekig", "Klein en rond", "Hartvormig", "Zeer plat"],
+        answer: 2
+      },
+      {
+        prompt: "Waarvoor dient de fovea costalis op de wervel?",
+        options: ["Bevestiging van ligamenten", "Aanhechting van spieren", "Gewrichtsvlak voor ribben", "Doorlaat voor bloedvaten"],
+        answer: 2
+      },
+      {
+        prompt: "Waar bevindt de fovea costalis superior/inferior zich?",
+        options: ["Op het corpus vertebrae", "Op de arcus", "Op de processus transversus", "Op de processus spinosus"],
+        answer: 0
+      },
+      {
+        prompt: "Wat ligt er op de processus transversus van een thoracale wervel?",
+        options: ["Fovea costalis transversalis", "Fovea dentis", "Fovea capitis", "Fovea transversaria"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe ziet de processus spinosus eruit bij thoracale wervels?",
+        options: ["Kort en gespleten", "Lang en naar caudaal gericht", "Helemaal afwezig", "Zeer horizontaal"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is de oriëntatie van de gewrichtsvlakken bij thoracaal?",
+        options: ["Heel vlak", "Steil en gehoekt", "Loodrecht", "Naar boven gedraaid"],
+        answer: 1
+      },
+      {
+        prompt: "Welke beweging is in thoracale wervels het meest mogelijk?",
+        options: ["Flexie-extensie", "Rotatie", "Circumductie", "Hyperextensie"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt er achter het corpus van de wervel?",
+        options: ["Processus transversus", "Arcus vertebrae", "Foramen transversarium", "Discus articularis"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur articuleert met het tuberculum costae van de rib?",
+        options: ["Corpus", "Processus transversus", "Lamina", "Processus spinosus"],
+        answer: 1
+      },
+      {
+        prompt: "Wat vormt samen de arcus vertebrae?",
+        options: ["Lamina + pediculi", "Corpus + processus spinosus", "Discus + foramen", "Rib + tuberculum"],
+        answer: 0
+      },
+      {
+        prompt: "Met welke wervelkolomregio vormt de thoracale wervel een kyfose?",
+        options: ["Lumbaal", "Cervicaal", "Sacraal", "Thoracaal zelf"],
+        answer: 3
+      },
+      {
+        prompt: "Het corpus van thoracale wervels is…",
+        options: ["Slecht ontwikkeld", "Erg klein", "Meer ontwikkeld dan cervicaal", "Minder ontwikkeld dan lumbaal"],
+        answer: 2
+      },
+      {
+        prompt: "De rib articuleert met…",
+        options: ["Alleen corpus", "Alleen processus transversus", "Corpus én processus transversus", "Alleen lamina"],
+        answer: 2
+      },
+      {
+        prompt: "Welke wervelregio is het minst beweeglijk?",
+        options: ["Lumbaal", "Thoracaal", "Cervicaal", "Sacraal"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe ziet de processus transversus eruit?",
+        options: ["Kort en dun", "Groot met fovea costalis", "Verdikt en naar craniaal gericht", "Naar mediaal gericht"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is de belangrijkste reden voor beperkte beweging in thoracaal?",
+        options: ["Discus is te groot", "De ribben beperken beweging", "De processus spinosus is te kort", "De wervel is te klein"],
+        answer: 1
+      },
+      {
+        prompt: "Waar bevindt zich het gewrichtsvlak voor het caput costae?",
+        options: ["Op lamina", "Op corpus vertebrae", "Op het foramen", "Op de spinosus"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is het meest herkenbare kenmerk van thoracale wervels?",
+        options: ["Fovea costalis", "Dens", "Gespleten spinosus", "Groot foramen transversarium"],
+        answer: 0
+      }
+    ]
+  },
+  {
+    id: "lumbaal",
+    title: "Quiz 5 — Lumbale wervels (L1–L5)",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Wat is het meest herkenbare kenmerk van lumbale wervels?",
+        options: ["Een dens", "Groot en massief corpus", "Fovea costalis", "Foramen transversarium"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe ziet het corpus vertebrae eruit bij een lumbale wervel?",
+        options: ["Driehoekig", "Hartvormig", "Boonvormig", "Rond"],
+        answer: 2
+      },
+      {
+        prompt: "Waarom is het corpus zo groot?",
+        options: ["Voor rotatie", "Om ribben te dragen", "Om gewicht te dragen", "Voor lateroflexie"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe ziet het foramen vertebrale eruit bij lumbale wervels?",
+        options: ["Cirkelvormig", "Driehoekig", "Zeer klein", "Onderbroken"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe ziet de processus spinosus eruit?",
+        options: ["Lang en caudaal gericht", "Kort en stomp", "Gespleten", "Niet aanwezig"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is een typisch kenmerk van de processus transversus in lumbaal?",
+        options: ["Zeer groot", "Horizontaal gericht", "Met foramen transversarium", "Naar craniaal gericht"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is de oriëntatie van de gewrichtsvlakken bij lumbaal?",
+        options: ["Horizontaal", "Verticaler/loodrecht", "Steil en gehoekt", "Plat en ovaal"],
+        answer: 1
+      },
+      {
+        prompt: "Welke beweging is het minst mogelijk in de lumbale regio?",
+        options: ["Flexie", "Extensie", "Lateroflexie", "Rotatie"],
+        answer: 3
+      },
+      {
+        prompt: "Wat bevindt zich tussen twee corpussen van lumbale wervels?",
+        options: ["Geen schijf", "Tussenwervelschijf", "Ligament transversum", "Fovea lumbalis"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is een functie van de lumbale wervelkolom?",
+        options: ["Rotatie zoals in cervicale regio", "Draagt het bovenlichaam", "Verbinding met ribben", "Ondersteunt de schedel"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe ziet de arcus vertebrae eruit in een lumbale wervel?",
+        options: ["Heel dik en stevig", "Dun en lang", "Geen arcus aanwezig", "Zoals cervicaal"],
+        answer: 0
+      },
+      {
+        prompt: "Wat vormt het foramen vertebrale?",
+        options: ["Corpus + spieraanhechtingen", "Arcus + corpus", "Tuberculum + processus", "Costale koppelingen"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt er dorsaal van het corpus vertebrae?",
+        options: ["Discus", "Arcus vertebrae", "Ribben", "Processus transversus"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het uitsteeksel dat achteraan zit?",
+        options: ["Processus articularis", "Arcus posterior", "Processus spinosus", "Manubrium"],
+        answer: 2
+      },
+      {
+        prompt: "Waarom is rotatie beperkt in lumbaal?",
+        options: ["Door ribben", "Door hoge processus spinosus", "Door oriëntatie gewrichtsvlakken", "Door dens"],
+        answer: 2
+      },
+      {
+        prompt: "Welke wervelregio is het meest stabiel?",
+        options: ["Cervicaal", "Thoracaal", "Lumbaal", "Sacraal"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heten de gewrichtsuitsteeksels?",
+        options: ["Processus dentales", "Processus articularis", "Processus obliqui", "Tuberculum anterior"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe ziet de processus transversus eruit t.o.v. cervicale wervels?",
+        options: ["Groter en zonder foramen", "Kleiner en met foramen", "Gespleten", "Niet aanwezig"],
+        answer: 0
+      },
+      {
+        prompt: "Wat ligt er in het foramen vertebrale?",
+        options: ["Nieren", "Ruggenmerg", "Longen", "Slokdarm"],
+        answer: 1
+      },
+      {
+        prompt: "Waarvoor dient de lumbale lordose?",
+        options: ["Voor bescherming van ribben", "Voor balans en schokabsorptie", "Om rotaties mogelijk te maken", "Om het sacrum te verbinden"],
+        answer: 1
+      }
+    ]
+  }
+];
 
 const quizGrid = document.getElementById("quizGrid");
 const quizPlayground = document.getElementById("quizPlayground");
