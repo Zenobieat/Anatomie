@@ -1073,6 +1073,551 @@ const quizData = [
         answer: 0
       }
     ]
+  },
+  {
+    id: "humerus",
+    title: "Quiz 11 — Humerus",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Hoe heet de kop van de humerus?",
+        options: ["Caput humeri", "Tuberculum majus", "Collum anatomicum", "Glenoid head"],
+        answer: 0
+      },
+      {
+        prompt: "Wat articuleert met de cavitas glenoidalis van de scapula?",
+        options: ["Trochlea humeri", "Caput humeri", "Epicondylus lateralis", "Fossa olecrani"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt lateraal van de sulcus intertubercularis?",
+        options: ["Tuberculum minus", "Tuberculum majus", "Trochlea humeri", "Fossa coronoidea"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt mediaal van de sulcus intertubercularis?",
+        options: ["Tuberculum majus", "Tuberculum minus", "Caput humeri", "Collum chirurgicum"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het smalle deel onder de caput humeri?",
+        options: ["Collum anatomicum", "Corpus humeri", "Collum chirurgicum", "Crista humeri"],
+        answer: 2
+      },
+      {
+        prompt: "Wat zit er aan de achterzijde van de humerus distaal?",
+        options: ["Fossa olecrani", "Fossa radialis", "Tuberositas deltoidea", "Fovea articularis"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe heet het uitsteeksel aan de laterale zijde distaal?",
+        options: ["Epicondylus medialis", "Epicondylus lateralis", "Trochlea humeri", "Caput laterale"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur articuleert met de ulna?",
+        options: ["Capitulum humeri", "Trochlea humeri", "Tuberculum minus", "Fossa radialis"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur articuleert met de radius?",
+        options: ["Trochlea humeri", "Fossa olecrani", "Capitulum humeri", "Epicondylus medialis"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet de groeve voor de m. latissimus dorsi?",
+        options: ["Sulcus intertubercularis", "Sulcus nervi radialis", "Tuberositas deltoidea", "Sulcus bicipitalis"],
+        answer: 1
+      },
+      {
+        prompt: "Wat loopt door de sulcus nervi radialis?",
+        options: ["A. subclavia", "N. medianus", "N. radialis", "N. musculocutaneus"],
+        answer: 2
+      },
+      {
+        prompt: "Waar ligt de tuberositas deltoidea?",
+        options: ["Helemaal distaal", "Lateraal op het corpus humeri", "Mediaal op de humeruskop", "Op de trochlea"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt boven de capitulum humeri?",
+        options: ["Fossa olecrani", "Fossa radialis", "Fossa coronoidea", "Caput humeri"],
+        answer: 2
+      },
+      {
+        prompt: "Wat ligt boven de trochlea humeri?",
+        options: ["Fossa radialis", "Fossa coronoidea", "Epicondylus lateralis", "Collum chirurgicum"],
+        answer: 1
+      },
+      {
+        prompt: "Waarvoor dient het collum chirurgicum als klinisch punt?",
+        options: ["Breukgevoelig gebied", "Aanhechting triceps", "Gewrichtsvlak", "Biceps-aanhechting"],
+        answer: 0
+      },
+      {
+        prompt: "Welke zijde heeft een grotere epicondylus?",
+        options: ["Lateraal", "Mediaal", "Distaal", "Craniaal"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt aan de voorzijde van de humerus distaal?",
+        options: ["Fossa olecrani", "Fossa radialis & coronoidea", "Tuberculum majus", "Collum anatomicum"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur maakt pronatie-supinatie mogelijk?",
+        options: ["Capitulum humeri", "Trochlea humeri", "Tuberculum minus", "Epicondylus"],
+        answer: 0
+      },
+      {
+        prompt: "Wat is de aanhechtingsplaats voor de m. deltoideus?",
+        options: ["Tuberositas deltoidea", "Tuberculum majus", "Trochlea humeri", "Sulcus intertubercularis"],
+        answer: 0
+      },
+      {
+        prompt: "Wat ligt posterieur op de humerus?",
+        options: ["Fossa radialis", "Tuberculum minus", "Sulcus nervi radialis", "Capitulum humeri"],
+        answer: 2
+      }
+    ]
+  },
+  {
+    id: "ulna",
+    title: "Quiz 12 — Ulna",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Hoe heet het grote proximale uitsteeksel van de ulna dat de punt van de elleboog vormt?",
+        options: ["Processus coronoideus", "Tuberculum ulnare", "Olecranon", "Capitulum"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet de gewrichtsuitsparing op de ulna die met de trochlea humeri articuleert?",
+        options: ["Incisura radialis", "Incisura trochlearis", "Fovea ulnaris", "Facies trochlearis"],
+        answer: 1
+      },
+      {
+        prompt: "Waar ligt de incisura trochlearis?",
+        options: ["Distaal", "Proximaal", "Lateraal", "Op de radius"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur ligt onder de incisura trochlearis?",
+        options: ["Olecranon", "Processus coronoideus", "Caput ulnae", "Incisura radialis"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het kleine gewrichtsvlak voor de radius op de ulna?",
+        options: ["Processus styloideus", "Incisura radialis", "Fovea capitis", "Sulcus radialis"],
+        answer: 1
+      },
+      {
+        prompt: "Wat vormt de achterzijde van de elleboog?",
+        options: ["Processus styloideus", "Tuberositas ulnae", "Olecranon", "Collum ulnae"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet de knokkelvormige verdikking aan het distale einde?",
+        options: ["Caput ulnae", "Collum ulnare", "Fovea carpalis", "Tuberositas ulnaris"],
+        answer: 0
+      },
+      {
+        prompt: "Welk uitsteeksel ligt distaal aan de ulna?",
+        options: ["Trochlea", "Processus styloideus", "Tuberositas coronoidea", "Facies carpalis"],
+        answer: 1
+      },
+      {
+        prompt: "Wat articuleert met het caput ulnae?",
+        options: ["Humerus", "Radius", "Carpus direct", "Scapula"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet de aanhechtingsplaats onder de processus coronoideus?",
+        options: ["Tuberositas ulnae", "Tuberositas radii", "Tuberculum carpale", "Groove ulnaris"],
+        answer: 0
+      },
+      {
+        prompt: "Wat is de vorm van de ulna?",
+        options: ["Rechte buis", "S-vormig", "Licht gekromde pijp", "Volledig plat"],
+        answer: 2
+      },
+      {
+        prompt: "Welke zijde van de onderarm vormt de ulna?",
+        options: ["Lateraal (duimzijde)", "Mediaal (pinkzijde)", "Craniaal", "Caudaal"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur articuleert met het olecranon?",
+        options: ["Fossa olecrani (humerus)", "Fossa radialis", "Capitulum", "Collum humeri"],
+        answer: 0
+      },
+      {
+        prompt: "Wat articuleert met de incisura radialis?",
+        options: ["Caput humeri", "Caput radii", "Trochlea humeri", "Carpus"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur zorgt voor de belangrijkste aanhechting van de m. brachialis?",
+        options: ["Processus styloideus", "Tuberculum ulnare", "Tuberositas ulnae", "Collum ulnae"],
+        answer: 2
+      },
+      {
+        prompt: "Welk bot is langer, ulna of radius?",
+        options: ["Ulna", "Radius", "Beide even lang", "Verschilt per persoon sterk"],
+        answer: 0
+      },
+      {
+        prompt: "Wat vormt het proximaal deel van het ellebooggewricht?",
+        options: ["Processus styloideus", "Olecranon + incisura trochlearis", "Caput ulnae", "Incisura radialis"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het eindpunt van de ulna aan de pols?",
+        options: ["Processus trochlearis", "Processus styloideus ulnae", "Olecranon", "Tuberculum carpale"],
+        answer: 1
+      },
+      {
+        prompt: "Waar bevindt zich de incisura radialis op de ulna?",
+        options: ["Mediale zijde", "Laterale zijde", "Dorsale zijde", "Distaal"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is de functie van de ulna in de onderarm?",
+        options: ["Draaias voor pronatie-supinatie", "Hoofdondersteuning van pols", "Zorgt voor flexie-extensie elleboog", "Draagt bovenarmgewicht"],
+        answer: 2
+      }
+    ]
+  },
+  {
+    id: "radius",
+    title: "Quiz 13 — Radius",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Hoe heet het bovenste uiteinde van de radius?",
+        options: ["Caput radii", "Collum radii", "Tuberositas radii", "Facies radialis"],
+        answer: 0
+      },
+      {
+        prompt: "Welk deel articuleert met het capitulum humeri?",
+        options: ["Collum radii", "Caput radii", "Processus styloideus radii", "Facies carpalis"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het kleine nekje net onder de radiuskop?",
+        options: ["Fovea radii", "Collum radii", "Fossa radialis", "Circumferentia radii"],
+        answer: 1
+      },
+      {
+        prompt: "Wat ligt er mediaal van de proximale radius?",
+        options: ["Tuberositas radii", "Tuberculum dorsale", "Incisura trochlearis", "Processus styloideus"],
+        answer: 0
+      },
+      {
+        prompt: "Wat hecht aan op de tuberositas radii?",
+        options: ["Biceps brachii", "Triceps brachii", "Brachialis", "Pronator teres"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe heet het distale uitsteeksel dat je aan de duimzijde voelt?",
+        options: ["Olecranon", "Tuberositas radii", "Processus styloideus radii", "Caput radii"],
+        answer: 2
+      },
+      {
+        prompt: "Wat articuleert er met de incisura ulnaris van de radius?",
+        options: ["Caput humeri", "Olecranon", "Caput ulnae", "Carpus"],
+        answer: 2
+      },
+      {
+        prompt: "De radius ligt in anatomische houding…",
+        options: ["Pinkzijde", "Mediaal", "Duimzijde", "Dorsaal"],
+        answer: 2
+      },
+      {
+        prompt: "Welke beweging maakt de radius mogelijk rond de ulna?",
+        options: ["Flexie", "Extensie", "Pronatie en supinatie", "Circumductie"],
+        answer: 2
+      },
+      {
+        prompt: "Wat ligt op de distale voorzijde van de radius?",
+        options: ["Fovea carpalis", "Facies articularis carpalis", "Sulcus radialis", "Trochlea radii"],
+        answer: 1
+      },
+      {
+        prompt: "Met welke carpale beenderen articuleert de radius?",
+        options: ["Pisiforme & triquetrum", "Scaphoideum & lunatum", "Trapezium & hamatum", "Capitatum & trapezoideum"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet de achterste groef waar pezen doorheen lopen?",
+        options: ["Tuberositas dorsalis", "Tuberculum dorsale", "Crista radialis", "Sulcus radii posterior"],
+        answer: 1
+      },
+      {
+        prompt: "Waarvoor dient het tuberculum dorsale van Lister?",
+        options: ["Aanhechting carpalisch ligament", "Katrol voor extensorpezen", "Aanhechting bicepspees", "Stabilisator van elleboog"],
+        answer: 1
+      },
+      {
+        prompt: "Wat loopt door de incisura ulnaris van de radius?",
+        options: ["Fovea capitis", "Olecranon", "Caput ulnae", "Tuberositas ulnae"],
+        answer: 2
+      },
+      {
+        prompt: "Welke zijde van het distale radiusvlak is breder?",
+        options: ["Dorsaal", "Ventraal", "Lateraal", "Mediaal"],
+        answer: 2
+      },
+      {
+        prompt: "Wat is de vorm van de caput radii?",
+        options: ["Zadelvormig", "Schotelvormig", "Ovaal", "Hartvormig"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur articuleert met de humerus bij flexie-extensie?",
+        options: ["Tuberositas radii", "Caput radii", "Circumferentia articularis", "Fovea capitis radii"],
+        answer: 3
+      },
+      {
+        prompt: "Waar bevindt zich de tuberositas radii?",
+        options: ["Lateraal", "Dorsaal", "Mediaal", "Distaal"],
+        answer: 2
+      },
+      {
+        prompt: "Waar ligt de circumferentia articularis radii?",
+        options: ["Rond de radiuskop", "Op de distale rand", "Op de radiusbasis", "Bij de tuberositas"],
+        answer: 0
+      },
+      {
+        prompt: "Wat vormt samen met de ulna het ellebooggewricht?",
+        options: ["Caput radii", "Trochlea en capitulum", "Scaphoideum", "Glenoid"],
+        answer: 1
+      }
+    ]
+  },
+  {
+    id: "carpi",
+    title: "Quiz 14 — Ossa carpi",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Hoeveel handwortelbeentjes heeft een mens?",
+        options: ["6", "7", "8", "9"],
+        answer: 2
+      },
+      {
+        prompt: "In welke volgorde liggen de proximale carpalia van radiaal naar ulna?",
+        options: [
+          "Trapezium – trapezoideum – capitatum – hamatum",
+          "Pisiforme – triquetrum – lunatum – scaphoideum",
+          "Scaphoideum – lunatum – triquetrum – pisiforme",
+          "Lunatum – scaphoideum – pisiforme – hamatum"
+        ],
+        answer: 2
+      },
+      {
+        prompt: "Welk os ligt het meest radiaal in de proximale rij?",
+        options: ["Lunatum", "Scaphoideum", "Triquetrum", "Pisiforme"],
+        answer: 1
+      },
+      {
+        prompt: "Welk os ligt het meest ulnair in de proximale rij?",
+        options: ["Scaphoideum", "Hamatum", "Pisiforme", "Capitatum"],
+        answer: 2
+      },
+      {
+        prompt: "Welk bot hecht aan op het os pisiforme?",
+        options: ["Flexor carpi radialis", "Flexor carpi ulnaris", "Extensor digitorum", "Pronator quadratus"],
+        answer: 1
+      },
+      {
+        prompt: "Welk carpale bot articuleert met de radius?",
+        options: ["Hamatus", "Capitatum", "Scaphoideum en lunatum", "Triquetrum en pisiforme"],
+        answer: 2
+      },
+      {
+        prompt: "Wat is het grootste carpale bot?",
+        options: ["Trapezoideum", "Hamatum", "Capitatum", "Scaphoideum"],
+        answer: 2
+      },
+      {
+        prompt: "Welk bot heeft een haakvormig uitsteeksel (‘hamulus’)?",
+        options: ["Hamatum", "Capitatum", "Trapezium", "Pisiforme"],
+        answer: 0
+      },
+      {
+        prompt: "Welk carpale bot ligt onder de duim?",
+        options: ["Pisiforme", "Trapezium", "Hamatum", "Lunatum"],
+        answer: 1
+      },
+      {
+        prompt: "Welke botten vormen de distale carpale rij?",
+        options: [
+          "Scaphoideum – lunatum – triquetrum – pisiforme",
+          "Trapezium – trapezoideum – capitatum – hamatum",
+          "Radius – ulna – pisiforme – scaphoideum",
+          "Capitatum – lunatum – pisiforme – trapezoideum"
+        ],
+        answer: 1
+      },
+      {
+        prompt: "Welk bot vormt een belangrijk deel van het ‘snuff box’-gebied?",
+        options: ["Triquetrum", "Capitatum", "Scaphoideum", "Lunatum"],
+        answer: 2
+      },
+      {
+        prompt: "Welk carpale bot luxeert het snelst?",
+        options: ["Capitatum", "Scaphoideum", "Lunatum", "Trapezoideum"],
+        answer: 2
+      },
+      {
+        prompt: "Welk bot ligt direct ventraal op het triquetrum?",
+        options: ["Pisiforme", "Lunatum", "Capitatum", "Trapezium"],
+        answer: 0
+      },
+      {
+        prompt: "Wat articuleert met het trapezium?",
+        options: ["Ulna", "Duimmetacarpale (MC I)", "Radius", "Hamatum"],
+        answer: 1
+      },
+      {
+        prompt: "Welk bot ligt centraal in de distale rij?",
+        options: ["Trapezium", "Trapezoideum", "Capitatum", "Hamatum"],
+        answer: 2
+      },
+      {
+        prompt: "Wat is de functie van het hamulus ossis hamati?",
+        options: ["Aanhechting biceps", "Beschermen van zenuwen en pezen", "Hechting aan de ulna", "Ondersteunen van duimoppositie"],
+        answer: 1
+      },
+      {
+        prompt: "Wat is het kleinste carpale bot?",
+        options: ["Pisiforme", "Scaphoideum", "Lunatum", "Trapezium"],
+        answer: 0
+      },
+      {
+        prompt: "Welk bot ligt tussen scaphoideum en capitatum?",
+        options: ["Lunatum", "Pisiforme", "Hamatum", "Trapezoideum"],
+        answer: 0
+      },
+      {
+        prompt: "Wat articuleert met het hamatum aan de laterale zijde?",
+        options: ["Trapezium", "Pisiforme", "Capitatum", "Scaphoideum"],
+        answer: 2
+      },
+      {
+        prompt: "Met welke twee botten articuleert het triquetrum?",
+        options: ["Scaphoideum & trapezium", "Lunatum & pisiforme", "Radius & ulna", "Trapezoideum & capitatum"],
+        answer: 1
+      }
+    ]
+  },
+  {
+    id: "os-coxae",
+    title: "Quiz 15 — Os coxae",
+    level: "Moeilijk • 20 vragen",
+    questions: [
+      {
+        prompt: "Uit welke drie botstukken bestaat het os coxae bij kinderen?",
+        options: ["Ilium – sacrum – pubis", "Ilium – ischium – pubis", "Ilium – femur – pubis", "Ilium – ischium – coccyx"],
+        answer: 1
+      },
+      {
+        prompt: "Waar komen deze drie botten samen?",
+        options: ["Fossa iliaca", "Ala ossis ilii", "Acetabulum", "Foramen obturatum"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet de grote holte waar de femurkop in past?",
+        options: ["Fovea capitis", "Cavitas glenoidalis", "Acetabulum", "Fossa iliaca"],
+        answer: 2
+      },
+      {
+        prompt: "Hoe heet het grote gat in het os coxae?",
+        options: ["Foramen vertebrale", "Foramen obturatum", "Foramen magnum", "Foramen ischiadicum majus"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet de bovenrand van het ilium?",
+        options: ["Crista iliaca", "Margo superioris", "Linea arcuata", "Arcus iliacus"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe heet de voorste bovenste uitsteeksel van het ilium?",
+        options: ["AIIS", "PIIS", "ASIS", "PSIS"],
+        answer: 2
+      },
+      {
+        prompt: "Wat is de afkorting voor ‘anterior inferior iliac spine’?",
+        options: ["ASIS", "AIIS", "PIIS", "PSIS"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur voel je achteraan bovenaan op je bekken?",
+        options: ["ASIS", "PSIS", "Ischiale knobbel", "Acetabular rim"],
+        answer: 1
+      },
+      {
+        prompt: "Waar ligt de tuber ischiadicum?",
+        options: ["Onderkant van het ischium", "Voorzijde van de pubis", "Laterale zijde van het ilium", "Bovenrand van het acetabulum"],
+        answer: 0
+      },
+      {
+        prompt: "Wat vormt de zitknobbel?",
+        options: ["Tuber pubicum", "Tuber ischiadicum", "Crista iliaca", "Spina iliaca posterior"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet de scherpe rand aan de binnenzijde van het bekken?",
+        options: ["Linea intertrochanterica", "Linea arcuata", "Linea glutea", "Linea terminalis"],
+        answer: 1
+      },
+      {
+        prompt: "Welke structuur vormt de bovenrand van het acetabulum?",
+        options: ["Limbus acetabuli", "Fovea capitis", "Ala ossis ilii", "Incisura ischiadica major"],
+        answer: 0
+      },
+      {
+        prompt: "Hoe heet de diepe inkeping achteraan het os coxae?",
+        options: ["Incisura acetabuli", "Incisura ischiadica major", "Incisura iliaca", "Incisura obturatoria"],
+        answer: 1
+      },
+      {
+        prompt: "Welk ligament passeert door de incisura ischiadica major?",
+        options: ["Lig. inguinale", "Lig. sacrotuberale", "Lig. capitis femoris", "Lig. pubicum"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het voorste deel van het os coxae?",
+        options: ["Ilium", "Pubis", "Sacrum", "Femur"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet de verbinding tussen beide pubisbeenderen?",
+        options: ["Symphysis pubica", "Articulatio sacroiliaca", "Fissura pelvis", "Linea terminalis"],
+        answer: 0
+      },
+      {
+        prompt: "Welke zijde van het os coxae is bol en naar buiten gericht?",
+        options: ["Facies pelvina", "Facies glutea", "Facies obturatoria", "Facies sacralis"],
+        answer: 1
+      },
+      {
+        prompt: "Hoe heet het kleine uitsteeksel boven de acetabulumrand?",
+        options: ["Spina ischiadica", "Spina iliaca anterior superior", "Tuberculum pubicum", "Eminentia iliopubica"],
+        answer: 3
+      },
+      {
+        prompt: "Wat ligt posterieur van het acetabulum?",
+        options: ["Foramen obturatum", "Incisura ischiadica major", "Symfyse", "Pubisramus"],
+        answer: 1
+      },
+      {
+        prompt: "Waar ligt de facies lunata?",
+        options: ["Op de femurkop", "Binnenin het acetabulum", "Op de crista iliaca", "Aan de voorzijde van de pubis"],
+        answer: 1
+      }
+    ]
   }
 ];
 

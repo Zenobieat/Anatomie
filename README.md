@@ -1,8 +1,8 @@
 # Anatomie
 
 Een lichte, Apple-achtige anatomiequizinterface die klaarstaat voor een
-nieuwe reeks 20-vragen modules. Batches 1 en 2 (Atlas → Scapula) staan
-nu live; de overige botten volgen in schijven van vijf.
+nieuwe reeks 20-vragen modules. Batches 1 t/m 3 (Atlas → Os Coxae)
+staan nu live; de overige botten volgen in schijven van vijf.
 
 ## Bekijk de site lokaal
 
