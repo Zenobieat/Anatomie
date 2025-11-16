@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anatomie Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <!-- Nieuwe hero-sectie om meer schermruimte te benutten -->
+    <header class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Anatomie Academie</p>
+        <h1>Master de botnamen met een moderne quizervaring</h1>
+        <p class="lede">
+          Oefen je kennis en ontdek stap voor stap elke botgroep. Alle vragen, scorelogica en
+          navigatie werken zoals je gewend bent, maar kregen een frisse look.
+        </p>
+        <div class="hero__actions">
+          <a class="btn primary" href="#quiz">Start meteen</a>
+          <a class="btn ghost" href="#catalogus">Ontdek bot per bot</a>
+        </div>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero__orb"></div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Quizpaneel blijft dezelfde data gebruiken maar in bredere layout -->
+      <section id="quiz" class="quiz-section">
+        <div class="panel quiz-panel">
+          <div class="quiz-panel__header">
+            <h2>Interactieve Quiz</h2>
+            <div class="score-chip" id="scoreChip">0 / 0 punten</div>
+          </div>
+
+          <div class="progress">
+            <div class="progress__label">
+              <span id="progressText">Vraag 1 van 1</span>
+            </div>
+            <div class="progress__bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+              <div class="progress__value" id="progressValue"></div>
+            </div>
+          </div>
+
+          <div class="question-area">
+            <p class="question-text" id="questionText">Laadt vraag…</p>
+            <div class="answers-grid" id="answersGrid"></div>
+          </div>
+
+          <div class="quiz-footer">
+            <p class="feedback" id="feedbackText">Kies het juiste antwoord.</p>
+            <button class="btn primary" id="nextButton" disabled>Volgende vraag</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Catalogus toont nu kaarten die standaard dicht zijn -->
+      <section id="catalogus" class="catalog-section">
+        <div class="catalog-header">
+          <h2>Ontdek bot per bot</h2>
+          <p>Alle categorieën starten dicht. Open er één tegelijk om netjes door de inhoud te bladeren.</p>
+        </div>
+        <div id="catalogGrid" class="catalog-grid"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
