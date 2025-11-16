@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anatomie Masterclass</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="screen screen--start is-visible" data-screen="start" id="startScreen">
+      <header class="hero">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Welkom in de Anatomie Arena</p>
+          <h1>
+            ✅ Anatomie Quiz Hub
+            <span>Nieuwe 20-vragen quizzen worden bot per bot toegevoegd</span>
+          </h1>
+          <p>
+            We zetten alle anatomiequizzen opnieuw klaar in deze frisse
+            omgeving. Klik op de knop hieronder om al te zien hoe het menu en de
+            speelzone gestructureerd zijn voor de volgende lichting botten.
+          </p>
+          <button class="hero__cta" id="scrollToQuizzes">Ontdek de quizzen</button>
+        </div>
+        <div class="hero__animation" aria-hidden="true">
+          <div class="spine">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="pulse"></div>
+        </div>
+      </header>
+      <section class="hero__details">
+        <article>
+          <h3>Gestructureerd leren</h3>
+          <p>Elke quiz zit in zijn eigen kaart zodat je bot per bot kunt oefenen.</p>
+        </article>
+        <article>
+          <h3>Score op 20</h3>
+          <p>Na 20 vragen zie je meteen je resultaat, inclusief feedback per vraag.</p>
+        </article>
+        <article>
+          <h3>Apple-achtige finesse</h3>
+          <p>Modern font, zachte animaties en een cleane interface voor focus.</p>
+        </article>
+      </section>
+    </div>
+
+    <div class="screen screen--catalog" data-screen="catalog" id="catalogScreen">
+      <main class="workspace">
+        <header class="catalog-header">
+          <div>
+            <p class="hero__eyebrow">Quizcatalogus</p>
+            <h2>Ontdek bot per bot</h2>
+            <p>
+              Selecteer eerst een bot in het overzicht links. Rechts zie je je
+              actieve quiz, de voortgang en uiteindelijk de resultaten.
+            </p>
+          </div>
+          <div class="catalog-header__actions">
+            <button class="btn ghost" id="goToLanding">← Terug naar start</button>
+          </div>
+        </header>
+
+        <section class="catalog-grid">
+          <div>
+            <section id="quizMenu" class="panel panel--menu">
+              <div class="panel__header">
+                <h3>Hoofdmenu – kies je bot</h3>
+                <p>
+                  Klap een categorie open en kies het bot waarvan je de quiz
+                  wil spelen.
+                </p>
+              </div>
+              <div class="quiz-grid" id="quizGrid"></div>
+            </section>
+          </div>
+
+          <div class="workspace__play">
+            <section id="quizPlayground" class="panel panel--hidden">
+              <div class="quiz-head">
+                <button class="btn ghost" id="backToMenu">← Terug naar hoofdmenu</button>
+                <div class="quiz-head__info">
+                  <p id="quizLevel"></p>
+                  <h3 id="quizTitle"></h3>
+                </div>
+              </div>
+              <div id="questionZone" class="question-zone"></div>
+              <div class="quiz-footer">
+                <div class="progress">
+                  <span id="progressCounter"></span>
+                  <div class="progress__bar">
+                    <div id="progressBar"></div>
+                  </div>
+                </div>
+                <button class="btn primary" id="nextQuestion" disabled>Volgende vraag</button>
+              </div>
+            </section>
+
+            <section id="resultPanel" class="panel panel--hidden">
+              <div class="result-card">
+                <p class="result-card__eyebrow">Quiz voltooid</p>
+                <h3 id="resultTitle"></h3>
+                <p id="resultScore"></p>
+                <div id="resultDetails" class="result-details"></div>
+                <div class="result-actions">
+                  <button class="btn ghost" id="retryQuiz">Probeer opnieuw</button>
+                  <button class="btn primary" id="returnHome">Terug naar menu</button>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <p>Gemaakt met ❤️ voor anatomie – powered by GPT-5 Codex</p>
+    </footer>
+
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>
